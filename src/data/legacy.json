@@ -1,0 +1,533 @@
+{
+ "syncedAt": "2026-09-16T08:58:22.245Z",
+ "source": "https://nether.wowhead.com/forever/data/legacy-calculator?dv=2",
+ "build": "1.60.1.69800",
+ "cap": 16,
+ "trees": [
+  {
+   "id": 1187,
+   "name": "Professions",
+   "blurb": "Crafting, gathering and gold.",
+   "edges": [
+    {
+     "from": 110286,
+     "to": 110284,
+     "type": 2
+    },
+    {
+     "from": 110291,
+     "to": 110292,
+     "type": 2
+    },
+    {
+     "from": 113508,
+     "to": 113506,
+     "type": 2
+    }
+   ],
+   "nodes": [
+    {
+     "id": 110289,
+     "name": "Master Chef",
+     "icon": "achievement_profession_chefhat",
+     "x": 3900,
+     "y": 1050,
+     "maxRank": 5,
+     "locked": false,
+     "requiredSpent": 5,
+     "castMs": 0,
+     "cooldownMs": 0,
+     "ranks": [
+      "Your cooking recipes have a 10% chance to create an extra result.",
+      "Your cooking recipes have a 20% chance to create an extra result.",
+      "Your cooking recipes have a 30% chance to create an extra result.",
+      "Your cooking recipes have a 40% chance to create an extra result.",
+      "Your cooking recipes have a 50% chance to create an extra result."
+     ]
+    },
+    {
+     "id": 110290,
+     "name": "Working Overtime",
+     "icon": "inv_misc_pocketwatch_03",
+     "x": 2400,
+     "y": 1800,
+     "maxRank": 5,
+     "locked": false,
+     "requiredSpent": 0,
+     "castMs": 0,
+     "cooldownMs": 0,
+     "ranks": [
+      "Increases your chance to gain a skill increase from using any primary, secondary, or class-based tradeskill by 4%.",
+      "Increases your chance to gain a skill increase from using any primary, secondary, or class-based tradeskill by 8%.",
+      "Increases your chance to gain a skill increase from using any primary, secondary, or class-based tradeskill by 12%.",
+      "Increases your chance to gain a skill increase from using any primary, secondary, or class-based tradeskill by 16%.",
+      "Increases your chance to gain a skill increase from using any primary, secondary, or class-based tradeskill by 20%."
+     ]
+    },
+    {
+     "id": 110286,
+     "name": "Bartering",
+     "icon": "inv_misc_coin_06",
+     "x": 3150,
+     "y": 1800,
+     "maxRank": 2,
+     "locked": false,
+     "requiredSpent": 5,
+     "castMs": 0,
+     "cooldownMs": 0,
+     "ranks": [
+      "Reduces the gold price of items from all vendors by 5%.",
+      "Reduces the gold price of items from all vendors by 10%."
+     ]
+    },
+    {
+     "id": 110284,
+     "name": "Dedicated Study",
+     "icon": "inv_misc_book_08",
+     "x": 3900,
+     "y": 1800,
+     "maxRank": 1,
+     "locked": false,
+     "requiredSpent": 10,
+     "castMs": 25000,
+     "cooldownMs": 82800000,
+     "ranks": [
+      "Increases your skill by 1 in your lowest tradeskill among your Primary and Secondary tradeskills. If you have already reached 300 skill in your two current Primary Tradeskills and all three Secondary Tradeskills, you will gain 2 to 4 of a random Elemental Essence."
+     ]
+    },
+    {
+     "id": 110291,
+     "name": "Bountiful Harvest",
+     "icon": "inv_misc_bag_18",
+     "x": 2400,
+     "y": 2550,
+     "maxRank": 5,
+     "locked": false,
+     "requiredSpent": 0,
+     "castMs": 0,
+     "cooldownMs": 0,
+     "ranks": [
+      "You discover 20% more Scarce materials from Mining, Herbalism, and Skinning.",
+      "You discover 40% more Scarce materials from Mining, Herbalism, and Skinning.",
+      "You discover 60% more Scarce materials from Mining, Herbalism, and Skinning.",
+      "You discover 80% more Scarce materials from Mining, Herbalism, and Skinning.",
+      "You discover 100% more Scarce materials from Mining, Herbalism, and Skinning."
+     ]
+    },
+    {
+     "id": 110292,
+     "name": "Performance Bonus",
+     "icon": "racial_dwarf_findtreasure",
+     "x": 3150,
+     "y": 2550,
+     "maxRank": 3,
+     "locked": false,
+     "requiredSpent": 5,
+     "castMs": 0,
+     "cooldownMs": 0,
+     "ranks": [
+      "You have a 5% chance to receive 100% increased Merchant's Favor when you turn in a crate to the Azeroth Commerce Authority or Durotar Supply and Logistics.",
+      "You have a 10% chance to receive 100% increased Merchant's Favor when you turn in a crate to the Azeroth Commerce Authority or Durotar Supply and Logistics.",
+      "You have a 15% chance to receive 100% increased Merchant's Favor when you turn in a crate to the Azeroth Commerce Authority or Durotar Supply and Logistics."
+     ]
+    },
+    {
+     "id": 113508,
+     "name": "Unknown",
+     "icon": "inv_misc_questionmark",
+     "x": 3900,
+     "y": 2550,
+     "maxRank": 1,
+     "locked": true,
+     "requiredSpent": 0,
+     "castMs": 0,
+     "cooldownMs": 0,
+     "ranks": [
+      "To be added in a future update."
+     ]
+    },
+    {
+     "id": 113506,
+     "name": "Unknown",
+     "icon": "inv_misc_questionmark",
+     "x": 4650,
+     "y": 2550,
+     "maxRank": 1,
+     "locked": true,
+     "requiredSpent": 0,
+     "castMs": 0,
+     "cooldownMs": 0,
+     "ranks": [
+      "To be added in a future update."
+     ]
+    },
+    {
+     "id": 110293,
+     "name": "Luremaster",
+     "icon": "inv_misc_basket_04",
+     "x": 3900,
+     "y": 3300,
+     "maxRank": 2,
+     "locked": false,
+     "requiredSpent": 5,
+     "castMs": 0,
+     "cooldownMs": 0,
+     "ranks": [
+      "While fishing with a Lure active, you have a 25% chance to catch an extra fish.",
+      "While fishing with a Lure active, you have a 50% chance to catch an extra fish."
+     ]
+    }
+   ]
+  },
+  {
+   "id": 1188,
+   "name": "Adventure",
+   "blurb": "Levelling, exploration and utility.",
+   "edges": [
+    {
+     "from": 110301,
+     "to": 110298,
+     "type": 2
+    },
+    {
+     "from": 110304,
+     "to": 110300,
+     "type": 2
+    },
+    {
+     "from": 113511,
+     "to": 113510,
+     "type": 2
+    }
+   ],
+   "nodes": [
+    {
+     "id": 110305,
+     "name": "High Alert",
+     "icon": "spell_shadow_detectlesserinvisibility",
+     "x": 3150,
+     "y": 1050,
+     "maxRank": 2,
+     "locked": false,
+     "requiredSpent": 5,
+     "castMs": 0,
+     "cooldownMs": 0,
+     "ranks": [
+      "Increases your ability to detect nearby targets with Stealth as if your level were increased by 1. Ineffective in Battlegrounds.",
+      "Increases your ability to detect nearby targets with Stealth as if your level were increased by 2. Ineffective in Battlegrounds."
+     ]
+    },
+    {
+     "id": 110301,
+     "name": "Well Rested",
+     "icon": "spell_nature_sleep",
+     "x": 2400,
+     "y": 1800,
+     "maxRank": 5,
+     "locked": false,
+     "requiredSpent": 0,
+     "castMs": 0,
+     "cooldownMs": 0,
+     "ranks": [
+      "Your rested experience accumulates 4% faster and your rested experience cap is increased by 4%.",
+      "Your rested experience accumulates 8% faster and your rested experience cap is increased by 8%.",
+      "Your rested experience accumulates 12% faster and your rested experience cap is increased by 12%.",
+      "Your rested experience accumulates 16% faster and your rested experience cap is increased by 16%.",
+      "Your rested experience accumulates 20% faster and your rested experience cap is increased by 20%."
+     ]
+    },
+    {
+     "id": 110298,
+     "name": "Talented",
+     "icon": "ability_marksmanship",
+     "x": 3150,
+     "y": 1800,
+     "maxRank": 5,
+     "locked": false,
+     "requiredSpent": 5,
+     "castMs": 0,
+     "cooldownMs": 0,
+     "ranks": [
+      "You gain talent points every level starting at level 9 instead of starting at level 10, but you still may not have more than 51 total talent points.",
+      "You gain talent points every level starting at level 8 instead of starting at level 10, but you still may not have more than 51 total talent points.",
+      "You gain talent points every level starting at level 7 instead of starting at level 10, but you still may not have more than 51 total talent points.",
+      "You gain talent points every level starting at level 6 instead of starting at level 10, but you still may not have more than 51 total talent points.",
+      "You gain talent points every level starting at level 5 instead of starting at level 10, but you still may not have more than 51 total talent points."
+     ]
+    },
+    {
+     "id": 113511,
+     "name": "Unknown",
+     "icon": "inv_misc_questionmark",
+     "x": 3900,
+     "y": 1800,
+     "maxRank": 1,
+     "locked": true,
+     "requiredSpent": 0,
+     "castMs": 0,
+     "cooldownMs": 0,
+     "ranks": [
+      "To be added in a future update."
+     ]
+    },
+    {
+     "id": 113510,
+     "name": "Unknown",
+     "icon": "inv_misc_questionmark",
+     "x": 4650,
+     "y": 1800,
+     "maxRank": 1,
+     "locked": true,
+     "requiredSpent": 0,
+     "castMs": 0,
+     "cooldownMs": 0,
+     "ranks": [
+      "To be added in a future update."
+     ]
+    },
+    {
+     "id": 110296,
+     "name": "Thrill of Adventure",
+     "icon": "ability_hunter_huntervswild",
+     "x": 2400,
+     "y": 2550,
+     "maxRank": 5,
+     "locked": false,
+     "requiredSpent": 0,
+     "castMs": 0,
+     "cooldownMs": 0,
+     "ranks": [
+      "You gain 1% of your maximum Health and Mana over 10 sec each time you deliver the killing blow to a non-trivial enemy. Ineffective in dungeons, raids, and battlegrounds.",
+      "You gain 2% of your maximum Health and Mana over 10 sec each time you deliver the killing blow to a non-trivial enemy. Ineffective in dungeons, raids, and battlegrounds.",
+      "You gain 3% of your maximum Health and Mana over 10 sec each time you deliver the killing blow to a non-trivial enemy. Ineffective in dungeons, raids, and battlegrounds.",
+      "You gain 4% of your maximum Health and Mana over 10 sec each time you deliver the killing blow to a non-trivial enemy. Ineffective in dungeons, raids, and battlegrounds.",
+      "You gain 5% of your maximum Health and Mana over 10 sec each time you deliver the killing blow to a non-trivial enemy. Ineffective in dungeons, raids, and battlegrounds."
+     ]
+    },
+    {
+     "id": 110304,
+     "name": "Field Guide",
+     "icon": "inv_fishingchair",
+     "x": 3150,
+     "y": 2550,
+     "maxRank": 3,
+     "locked": false,
+     "requiredSpent": 5,
+     "castMs": 0,
+     "cooldownMs": 0,
+     "ranks": [
+      "Reduces your cooldown on adding Camp features by 8%",
+      "Reduces your cooldown on adding Camp features by 17%",
+      "Reduces your cooldown on adding Camp features by 25%"
+     ]
+    },
+    {
+     "id": 110300,
+     "name": "Frequent Flier",
+     "icon": "achievement_guild_ridelikethewind",
+     "x": 3900,
+     "y": 2550,
+     "maxRank": 1,
+     "locked": false,
+     "requiredSpent": 10,
+     "castMs": 0,
+     "cooldownMs": 0,
+     "ranks": [
+      "You receive a 50% discount on all flight paths, and your flight path mount flies 20% faster."
+     ]
+    },
+    {
+     "id": 110303,
+     "name": "Field Medicine",
+     "icon": "inv_misc_bandage_05",
+     "x": 3150,
+     "y": 3300,
+     "maxRank": 2,
+     "locked": false,
+     "requiredSpent": 5,
+     "castMs": 0,
+     "cooldownMs": 0,
+     "ranks": [
+      "Reduces the duration of the Recently Bandaged effect by 5 sec when you use a bandage. Ineffective in dungeons, raids, and battlegrounds.",
+      "Reduces the duration of the Recently Bandaged effect by 10 sec when you use a bandage. Ineffective in dungeons, raids, and battlegrounds."
+     ]
+    }
+   ]
+  },
+  {
+   "id": 1189,
+   "name": "Resourcefulness",
+   "blurb": "Upkeep, reputation and honor.",
+   "edges": [
+    {
+     "from": 110313,
+     "to": 110316,
+     "type": 2
+    },
+    {
+     "from": 110315,
+     "to": 110309,
+     "type": 2
+    },
+    {
+     "from": 113513,
+     "to": 113512,
+     "type": 2
+    }
+   ],
+   "nodes": [
+    {
+     "id": 110319,
+     "name": "For Great Honor",
+     "icon": "achievement_bg_winwsg",
+     "x": 3150,
+     "y": 1050,
+     "maxRank": 5,
+     "locked": false,
+     "requiredSpent": 5,
+     "castMs": 0,
+     "cooldownMs": 0,
+     "ranks": [
+      "Increases Honor Points gained by 2%.",
+      "Increases Honor Points gained by 4%.",
+      "Increases Honor Points gained by 6%.",
+      "Increases Honor Points gained by 8%.",
+      "Increases Honor Points gained by 10%."
+     ]
+    },
+    {
+     "id": 110313,
+     "name": "Gourmand",
+     "icon": "inv_misc_food_64",
+     "x": 2400,
+     "y": 1800,
+     "maxRank": 3,
+     "locked": false,
+     "requiredSpent": 0,
+     "castMs": 0,
+     "cooldownMs": 0,
+     "ranks": [
+      "Increases the duration of beneficial effects from eating food by 33%.",
+      "Increases the duration of beneficial effects from eating food by 67%.",
+      "Increases the duration of beneficial effects from eating food by 100%."
+     ]
+    },
+    {
+     "id": 110316,
+     "name": "Permanence",
+     "icon": "spell_misc_emotionhappy",
+     "x": 3150,
+     "y": 1800,
+     "maxRank": 2,
+     "locked": false,
+     "requiredSpent": 5,
+     "castMs": 0,
+     "cooldownMs": 0,
+     "ranks": [
+      "Your class abilities which grant long-duration stat or attribute benefits to all party or raid members last 50% longer, and the benefits you gain from resting at a camp last 50% longer.",
+      "Your class abilities which grant long-duration stat or attribute benefits to all party or raid members last 100% longer, and the benefits you gain from resting at a camp last 100% longer."
+     ]
+    },
+    {
+     "id": 113513,
+     "name": "Unknown",
+     "icon": "inv_misc_questionmark",
+     "x": 3900,
+     "y": 1800,
+     "maxRank": 1,
+     "locked": true,
+     "requiredSpent": 0,
+     "castMs": 0,
+     "cooldownMs": 0,
+     "ranks": [
+      "To be added in a future update."
+     ]
+    },
+    {
+     "id": 113512,
+     "name": "Unknown",
+     "icon": "inv_misc_questionmark",
+     "x": 4650,
+     "y": 1800,
+     "maxRank": 1,
+     "locked": true,
+     "requiredSpent": 0,
+     "castMs": 0,
+     "cooldownMs": 0,
+     "ranks": [
+      "To be added in a future update."
+     ]
+    },
+    {
+     "id": 110315,
+     "name": "The Quick and the Dead",
+     "icon": "spell_shadow_deadofnight",
+     "x": 2400,
+     "y": 2550,
+     "maxRank": 2,
+     "locked": false,
+     "requiredSpent": 0,
+     "castMs": 0,
+     "cooldownMs": 0,
+     "ranks": [
+      "Increases movement speed while dead by 5% and your helpful spells and abilities cost no resources for 1 min after being resurrected or until you enter combat.",
+      "Increases movement speed while dead by 10% and your helpful spells and abilities cost no resources for 2 min after being resurrected or until you enter combat."
+     ]
+    },
+    {
+     "id": 110309,
+     "name": "Reagent Economy",
+     "icon": "inv_misc_candle_02",
+     "x": 3900,
+     "y": 2550,
+     "maxRank": 1,
+     "locked": false,
+     "requiredSpent": 10,
+     "castMs": 0,
+     "cooldownMs": 0,
+     "ranks": [
+      "Your class abilities no longer require reagents purchaseable from vendors, and your Tier 1 camping features cost no reagents to craft."
+     ]
+    },
+    {
+     "id": 110318,
+     "name": "Reinforce",
+     "icon": "inv_misc_armorkit_17",
+     "x": 2400,
+     "y": 3300,
+     "maxRank": 5,
+     "locked": false,
+     "requiredSpent": 0,
+     "castMs": 0,
+     "cooldownMs": 0,
+     "ranks": [
+      "You take 8% less durability loss when you die.",
+      "You take 16% less durability loss when you die.",
+      "You take 24% less durability loss when you die.",
+      "You take 32% less durability loss when you die.",
+      "You take 40% less durability loss when you die."
+     ]
+    },
+    {
+     "id": 110314,
+     "name": "Diplomat",
+     "icon": "inv_scroll_03",
+     "x": 3150,
+     "y": 3300,
+     "maxRank": 5,
+     "locked": false,
+     "requiredSpent": 5,
+     "castMs": 0,
+     "cooldownMs": 0,
+     "ranks": [
+      "Increases your reputation gains by 2%.",
+      "Increases your reputation gains by 4%.",
+      "Increases your reputation gains by 6%.",
+      "Increases your reputation gains by 8%.",
+      "Increases your reputation gains by 10%."
+     ]
+    }
+   ]
+  }
+ ]
+}
