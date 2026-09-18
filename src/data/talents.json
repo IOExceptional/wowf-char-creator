@@ -1,5 +1,5 @@
 {
- "syncedAt": "2026-09-16T08:58:22.245Z",
+ "syncedAt": "2026-09-18T14:14:25.156Z",
  "source": "https://nether.wowhead.com/forever/data/talents-classic?dv=19",
  "classes": {
   "druid": [
@@ -50,9 +50,9 @@
       "col": 0,
       "maxRank": 3,
       "ranks": [
-       "Reduces the Mana cost of your spells by 3%.",
-       "Reduces the Mana cost of your spells by 6%.",
-       "Reduces the Mana cost of your spells by 9%."
+       "Reduces the Mana cost of your damaging spells by 8%.",
+       "Reduces the Mana cost of your damaging spells by 17%.",
+       "Reduces the Mana cost of your damaging spells by 25%."
       ],
       "requires": null,
       "ability": null
@@ -93,8 +93,8 @@
       "col": 3,
       "maxRank": 2,
       "ranks": [
-       "Increases the range of your offensive Balance spells by 10% and increases the chance for all your spells and attacks to hit by 2%.",
-       "Increases the range of your offensive Balance spells by 20% and increases the chance for all your spells and attacks to hit by 4%."
+       "Increases the range of your offensive Balance spells by 10% and improves your chance to hit by 2%.",
+       "Increases the range of your offensive Balance spells by 20% and improves your chance to hit by 4%."
       ],
       "requires": null,
       "ability": null
@@ -131,23 +131,6 @@
       "ability": null
      },
      {
-      "id": 110843,
-      "name": "Balance of Nature",
-      "icon": "ability_druid_balanceofpower",
-      "row": 2,
-      "col": 3,
-      "maxRank": 5,
-      "ranks": [
-       "Each time you cast a Nature spell, your next Arcane damage spell within 10 sec deals 1% increased damage. Each time you cast an Arcane spell, your next Nature damage spell within 10 sec deals 1% increased damage.",
-       "Each time you cast a Nature spell, your next Arcane damage spell within 10 sec deals 2% increased damage. Each time you cast an Arcane spell, your next Nature damage spell within 10 sec deals 2% increased damage.",
-       "Each time you cast a Nature spell, your next Arcane damage spell within 10 sec deals 3% increased damage. Each time you cast an Arcane spell, your next Nature damage spell within 10 sec deals 3% increased damage.",
-       "Each time you cast a Nature spell, your next Arcane damage spell within 10 sec deals 4% increased damage. Each time you cast an Arcane spell, your next Nature damage spell within 10 sec deals 4% increased damage.",
-       "Each time you cast a Nature spell, your next Arcane damage spell within 10 sec deals 5% increased damage. Each time you cast an Arcane spell, your next Nature damage spell within 10 sec deals 5% increased damage."
-      ],
-      "requires": null,
-      "ability": null
-     },
-     {
       "id": 104930,
       "name": "Insect Swarm",
       "icon": "spell_nature_insectswarm",
@@ -155,7 +138,7 @@
       "col": 0,
       "maxRank": 1,
       "ranks": [
-       "The enemy target is swarmed by insects, decreasing their chance to hit by 2% and causing 55 Nature damage over 12 sec."
+       "The enemy target is swarmed by insects, decreasing their chance to hit with attacks by 2% and causing (94.8% of Spell Power) Nature damage over <!--sp1223083:0-->12 sec<!--sp1223083-->."
       ],
       "requires": null,
       "ability": {
@@ -241,7 +224,7 @@
       "ranks": [
        "Your Wrath spell reduces the cast time of your next 2 Starfire spells by 0.17 sec. Stores up to 4 charges. Lasts 15 sec.",
        "Your Wrath spell reduces the cast time of your next 2 Starfire spells by 0.33 sec. Stores up to 4 charges. Lasts 15 sec.",
-       "Your Wrath spell reduces the cast time of your next 2 Starfire spells by 0.5 sec. Stores up to 4 charges. Lasts 15 sec."
+       "Your Wrath spell reduces the cast time of your next 2 Starfire spells by 0.50 sec. Stores up to 4 charges. Lasts 15 sec."
       ],
       "requires": null,
       "ability": null
@@ -254,11 +237,11 @@
       "col": 1,
       "maxRank": 5,
       "ranks": [
-       "Increases the damage done by your Arcane and Nature spells by 1%.",
        "Increases the damage done by your Arcane and Nature spells by 2%.",
-       "Increases the damage done by your Arcane and Nature spells by 3%.",
        "Increases the damage done by your Arcane and Nature spells by 4%.",
-       "Increases the damage done by your Arcane and Nature spells by 5%."
+       "Increases the damage done by your Arcane and Nature spells by 6%.",
+       "Increases the damage done by your Arcane and Nature spells by 8%.",
+       "Increases the damage done by your Arcane and Nature spells by 10%."
       ],
       "requires": null,
       "ability": null
@@ -271,12 +254,12 @@
       "col": 1,
       "maxRank": 1,
       "ranks": [
-       "Transforms the Druid into Moonkin Form. While in this form, the armor contribution from items is increased by 360% and all party members within 45 yards have their critical chance increased by 3%, exclusive with Leader of the Pack. The Moonkin cannot cast healing spells while shapeshifted.\n\nThe act of shapeshifting frees the caster of Polymorph and Movement Impairing effects."
+       "Transforms the Druid into Moonkin Form. While in this form, the armor contribution from items is increased by 360%, Omen of Clarity gains 100% increased chance to trigger, and all party members within 45 yards have their critical strike chance increased by 3%, exclusive with Leader of the Pack. The Moonkin cannot cast healing spells while shapeshifted.<br /><br />The act of shapeshifting frees the caster of Polymorph and Movement Impairing effects."
       ],
       "requires": null,
       "ability": {
        "details": [
-        "283 Mana",
+        "35% of base mana",
         "Instant"
        ],
        "requiresText": null
@@ -345,9 +328,9 @@
       "col": 1,
       "maxRank": 3,
       "ranks": [
-       "Increases damage done by your Swipe ability by 10% and reduces the chance enemies have to detect you while Prowling as if you were 1 level higher.",
-       "Increases damage done by your Swipe ability by 20% and reduces the chance enemies have to detect you while Prowling as if you were 2 levels higher.",
-       "Increases damage done by your Swipe ability by 30% and reduces the chance enemies have to detect you while Prowling as if you were 3 levels higher."
+       "Increases damage done by your Swipe ability by 10% and reduces the chance enemies have to detect you while Prowling as if you were 1 <!--singular:level:levels-->levels<!--singular--> higher.",
+       "Increases damage done by your Swipe ability by 20% and reduces the chance enemies have to detect you while Prowling as if you were 2 <!--singular:level:levels-->levels<!--singular--> higher.",
+       "Increases damage done by your Swipe ability by 30% and reduces the chance enemies have to detect you while Prowling as if you were 3 <!--singular:level:levels-->levels<!--singular--> higher."
       ],
       "requires": null,
       "ability": null
@@ -376,7 +359,7 @@
       "ranks": [
        "While in Bear Form, Cat Form, Dire Bear Form, or Moonkin Form, you gain 1 additional base Armor per level and another 0.67 base Armor for each point of defense skill beyond five times your level. This amount can be further increased by multipliers from those forms.",
        "While in Bear Form, Cat Form, Dire Bear Form, or Moonkin Form, you gain 2 additional base Armor per level and another 1.33 base Armor for each point of defense skill beyond five times your level. This amount can be further increased by multipliers from those forms.",
-       "While in Bear Form, Cat Form, Dire Bear Form, or Moonkin Form, you gain 3 additional base Armor per level and another 2 base Armor for each point of defense skill beyond five times your level. This amount can be further increased by multipliers from those forms."
+       "While in Bear Form, Cat Form, Dire Bear Form, or Moonkin Form, you gain 3 additional base Armor per level and another 2.00 base Armor for each point of defense skill beyond five times your level. This amount can be further increased by multipliers from those forms."
       ],
       "requires": null,
       "ability": null
@@ -403,20 +386,17 @@
       "col": 2,
       "maxRank": 1,
       "ranks": [
-       "Charge an enemy, immobilizing them and interrupting any spell they are casting for 4 sec.\n\nFeral Charge (Cat)\nLeap behind an enemy, Dazing them for 3 sec."
+       "<!--sp9634:0--><!--sp9634--><!--sp5487:0--><span style=\"color: #FF2020\">Requires Bear Form, Dire Bear Form</span><!--sp5487--><br />Charge an enemy, immobilizing them and interrupting any spell they are casting for 4 sec.<br /><br /><br /><table><tr><td><b>Feral Charge (Cat)</b><br />8 - 25 yd range<table width=\"100%\"><tr><td>Instant</td><th>30 sec cooldown</th></tr></table>Requires Druid<br />Requires level 1</td></tr></table><table><tr><td>Requires Cat Form<br /><span class=\"q\">Leap behind an enemy.</span></td></tr></table>"
       ],
       "requires": null,
       "ability": {
        "details": [
         "5 Rage",
-        "8-25 yd range",
+        "8 - 25 yd range",
         "Instant",
-        "15 sec cooldown",
-        "Feral Charge (Cat): 8-25 yd range",
-        "Instant",
-        "30 sec cooldown"
+        "15 sec cooldown"
        ],
-       "requiresText": "Requires Bear Form, Dire Bear Form (bear part); Requires Cat Form (cat part)"
+       "requiresText": "Requires Cat Form, Bear Form, Dire Bear Form; Requires Bear Form, Dire Bear Form"
       }
      },
      {
@@ -456,7 +436,7 @@
       "col": 1,
       "maxRank": 1,
       "ranks": [
-       "Mangle the target for 100% normal damage plus 26."
+       "Mangle the target for 100% normal damage plus 26.<!--cooldown:417141:until canceled-->"
       ],
       "requires": {
        "id": 104948,
@@ -480,9 +460,9 @@
       "col": 2,
       "maxRank": 3,
       "ranks": [
-       "Increases your melee Attack Power by 50% of your level.",
-       "Increases your melee Attack Power by 100% of your level.",
-       "Increases your melee Attack Power by 150% of your level."
+       "Increases your melee Attack Power in Cat Form, Bear Form, and Dire Bear Form by 50% of your level.",
+       "Increases your melee Attack Power in Cat Form, Bear Form, and Dire Bear Form by 100% of your level.",
+       "Increases your melee Attack Power in Cat Form, Bear Form, and Dire Bear Form by 150% of your level."
       ],
       "requires": null,
       "ability": null
@@ -591,7 +571,7 @@
       "col": 1,
       "maxRank": 1,
       "ranks": [
-       "Causes your Mangle ability to strike up to 3 targets, removes its cooldown, and increases the critical strike chance of your Combo Point-generating abilities by 100%. Clears and grants immunity to Fear effects for the duration. Lasts 15 sec."
+       "<!--sp9634:0--><!--sp9634--><!--sp3025:0--><!--sp3025--><!--sp5487:0--><span style=\"color: #FF2020\">Requires Cat Form, Bear Form, Dire Bear Form</span><!--sp5487--><br />Causes your Mangle ability to strike up to 3 targets, removes its cooldown, and increases the critical strike chance of your Combo Point-generating abilities by 100%. Clears and grants immunity to Fear effects for the duration. Lasts 15 sec."
       ],
       "requires": {
        "id": 104955,
@@ -783,7 +763,7 @@
       "requires": null,
       "ability": {
        "details": [
-        "162 Mana",
+        "20% of base mana",
         "40 yd range",
         "Instant",
         "15 sec cooldown"
@@ -870,7 +850,7 @@
       "col": 1,
       "maxRank": 1,
       "ranks": [
-       "Heals the target and their party for 285 over 7 sec. Party members must be within 43 yards of target. The amount healed is applied quickly at first, and slows down as Wild Growth reaches its full duration."
+       "Heals the target and their party for (23.1% of Spell Power) over 7 sec. Party members must be within 43.5 yards of target. The amount healed is applied quickly at first, and slows down as Wild Growth reaches its full duration."
       ],
       "requires": {
        "id": 104911,
@@ -903,11 +883,11 @@
       "col": 1,
       "maxRank": 5,
       "ranks": [
-       "While Aspect of the Hawk is active, all normal ranged attacks have a 2% chance of increasing ranged attack speed by 30% for 12 sec. While Aspect of the Beast is active, all melee auto attacks have a 2% chance of increasing melee attack speed by 30% for 12 sec.",
-       "While Aspect of the Hawk is active, all normal ranged attacks have a 4% chance of increasing ranged attack speed by 30% for 12 sec. While Aspect of the Beast is active, all melee auto attacks have a 4% chance of increasing melee attack speed by 30% for 12 sec.",
-       "While Aspect of the Hawk is active, all normal ranged attacks have a 6% chance of increasing ranged attack speed by 30% for 12 sec. While Aspect of the Beast is active, all melee auto attacks have a 6% chance of increasing melee attack speed by 30% for 12 sec.",
-       "While Aspect of the Hawk is active, all normal ranged attacks have a 8% chance of increasing ranged attack speed by 30% for 12 sec. While Aspect of the Beast is active, all melee auto attacks have a 8% chance of increasing melee attack speed by 30% for 12 sec.",
-       "While Aspect of the Hawk is active, all normal ranged attacks have a 10% chance of increasing ranged attack speed by 30% for 12 sec. While Aspect of the Beast is active, all melee auto attacks have a 10% chance of increasing melee attack speed by 30% for 12 sec."
+       "While Aspect of the Hawk is active, Auto Shot has a 2% chance of increasing ranged attack speed by 30% for 12 sec. While Aspect of the Beast is active, all melee auto attacks have a 2% chance of increasing melee attack speed by 30% for 12 sec.",
+       "While Aspect of the Hawk is active, Auto Shot has a 4% chance of increasing ranged attack speed by 30% for 12 sec. While Aspect of the Beast is active, all melee auto attacks have a 4% chance of increasing melee attack speed by 30% for 12 sec.",
+       "While Aspect of the Hawk is active, Auto Shot has a 6% chance of increasing ranged attack speed by 30% for 12 sec. While Aspect of the Beast is active, all melee auto attacks have a 6% chance of increasing melee attack speed by 30% for 12 sec.",
+       "While Aspect of the Hawk is active, Auto Shot has a 8% chance of increasing ranged attack speed by 30% for 12 sec. While Aspect of the Beast is active, all melee auto attacks have a 8% chance of increasing melee attack speed by 30% for 12 sec.",
+       "While Aspect of the Hawk is active, Auto Shot has a 10% chance of increasing ranged attack speed by 30% for 12 sec. While Aspect of the Beast is active, all melee auto attacks have a 10% chance of increasing melee attack speed by 30% for 12 sec."
       ],
       "requires": null,
       "ability": null
@@ -937,8 +917,8 @@
       "col": 0,
       "maxRank": 2,
       "ranks": [
-       "Increases all damage you deal by 1% while your pet is active.",
-       "Increases all damage you deal by 2% while your pet is active."
+       "Increases all damage you and your pet deal by 1% while your pet is active.",
+       "Increases all damage you and your pet deal by 2% while your pet is active."
       ],
       "requires": null,
       "ability": null
@@ -1055,14 +1035,13 @@
       "col": 3,
       "maxRank": 1,
       "ranks": [
-       "Command a hawk to dive-bomb your targeted enemy, dealing 53 Physical damage and continuing its assault for 18 sec. Only 2 hawks can be active at once. Summon Hawk shares its cooldown with Arcane Shot."
+       "Command a hawk to dive-bomb your targeted enemy, dealing [32 / <span class=\"q2\">Ferocity</span>: <span class=\"q9\">48</span> / <span class=\"q2\">Unleashed Fury</span>: <span class=\"q9\">38</span> + (Ranged Attack Power * (0.05))] Physical damage and continuing its assault for 18 sec. Only 2 hawks can be active at once. Summon Hawk shares its cooldown with Arcane Shot."
       ],
       "requires": null,
       "ability": {
        "details": [
         "80 Mana",
         "35 yd range",
-        "Instant",
         "6 sec cooldown"
        ],
        "requiresText": null
@@ -1071,13 +1050,13 @@
      {
       "id": 104965,
       "name": "Spirit Bond",
-      "icon": "classic_ability_druid_demoralizingroar",
+      "icon": "ability_druid_demoralizingroar",
       "row": 4,
       "col": 0,
       "maxRank": 2,
       "ranks": [
        "While your pet is active, you and your pet will regenerate 1% of total health every 10 sec.",
-       "While your pet is active, you and your pet will regenerate 2% of total health every 10 sec."
+       "While your pet is active, you and your pet will regenerate 1% of total health every 5 sec."
       ],
       "requires": null,
       "ability": null
@@ -1098,7 +1077,7 @@
       },
       "ability": {
        "details": [
-        "84 Mana",
+        "8% of base mana",
         "100 yd range",
         "Instant",
         "1 min cooldown"
@@ -1156,7 +1135,7 @@
       },
       "ability": {
        "details": [
-        "125 Mana",
+        "12% of base mana",
         "100 yd range",
         "Instant",
         "2 min cooldown"
@@ -1228,7 +1207,7 @@
       "col": 0,
       "maxRank": 3,
       "ranks": [
-       "Increases the damage of your Serpent Sting ability by 6%, reduces the cooldown of your Viper Sting ability by 2 sec, and increases the duration of your Scorpid Sting ability by 15 sec.",
+       "Increased the damage of your Serpent Sting ability by 6%, reduces the cooldown of your Viper Sting ability by 2 sec, and increases the duration of your Scorpid Sting ability by 15 sec.",
        "Increased the damage of your Serpent Sting ability by 13%, reduces the cooldown of your Viper Sting ability by 4 sec, and increases the duration of your Scorpid Sting ability by 30 sec.",
        "Increased the damage of your Serpent Sting ability by 20%, reduces the cooldown of your Viper Sting ability by 6 sec, and increases the duration of your Scorpid Sting ability by 45 sec."
       ],
@@ -1353,6 +1332,23 @@
       "ability": null
      },
      {
+      "id": 105003,
+      "name": "Improved Serpent Sting",
+      "icon": "ability_hunter_quickshot",
+      "row": 3,
+      "col": 3,
+      "maxRank": 5,
+      "ranks": [
+       "Increases the damage done by your Serpent Sting by 2%.",
+       "Increases the damage done by your Serpent Sting by 4%.",
+       "Increases the damage done by your Serpent Sting by 6%.",
+       "Increases the damage done by your Serpent Sting by 8%.",
+       "Increases the damage done by your Serpent Sting by 10%."
+      ],
+      "requires": null,
+      "ability": null
+     },
+     {
       "id": 104999,
       "name": "Rapid Recuperation",
       "icon": "ability_hunter_rapidregeneration",
@@ -1397,12 +1393,11 @@
       "requires": null,
       "ability": {
        "details": [
-        "84 Mana",
+        "8% of base mana",
         "15 yd range",
-        "Instant",
         "30 sec cooldown"
        ],
-       "requiresText": null
+       "requiresText": "Requires Ranged Weapon"
       }
      },
      {
@@ -1439,11 +1434,11 @@
       "ability": {
        "details": [
         "365 Mana",
-        "8-35 yd range",
+        "8 - 35 yd range",
         "4 sec cast",
         "15 sec cooldown"
        ],
-       "requiresText": null
+       "requiresText": "Requires Ranged Weapon"
       }
      }
     ]
@@ -1587,7 +1582,7 @@
       "col": 2,
       "maxRank": 1,
       "ranks": [
-       "When activated, increases your Dodge and Parry chance by 25% for 10 sec."
+       "When activated, increases your Dodge and Parry chance by 25% for 10 sec.<!--cooldown:1310496:3 min cooldown-->"
       ],
       "requires": null,
       "ability": {
@@ -1637,7 +1632,7 @@
       "col": 2,
       "maxRank": 1,
       "ranks": [
-       "A strike that becomes active after parrying an opponent's attack. This attack deals 50% weapon damage plus 13 and immobilizes the target for 5 sec. Counterattack cannot be blocked, dodged, or parried."
+       "A strike that becomes active after parrying an opponent's attack. This attack deals 50% weapon damage plus 26 and immobilizes the target for 5 sec. Counterattack cannot be blocked, dodged, or parried."
       ],
       "requires": {
        "id": 104986,
@@ -1645,12 +1640,12 @@
       },
       "ability": {
        "details": [
-        "30 Mana",
+        "45 Mana",
         "Melee Range",
         "Instant",
         "5 sec cooldown"
        ],
-       "requiresText": null
+       "requiresText": "Requires Melee Weapon"
       }
      },
      {
@@ -1662,7 +1657,7 @@
       "maxRank": 2,
       "ranks": [
        "Reduces the mana cost of your Trap abilities and melee abilities by 30%. In addition, your critical strikes have a 30% chance to allow 50% of your Mana regeneration to continue while casting for 30 sec.",
-       "Reduces the mana cost of your Trap abilities and melee abilities by 60%. In addition, your critical strikes have a 100% chance to allow 50% of your Mana regeneration to continue while casting for 30 sec."
+       "Reduces the mana cost of your Trap abilities and melee abilities by 60%. In addition, your critical strikes have a 60% chance to allow 50% of your Mana regeneration to continue while casting for 30 sec."
       ],
       "requires": null,
       "ability": null
@@ -1690,7 +1685,7 @@
       "maxRank": 2,
       "ranks": [
        "Reduces the cooldown of your Trap and Deterrence abilities by 20%.",
-       "Reduces the cooldown of your Trap and Deterrence abilities by $m%."
+       "Reduces the cooldown of your Trap and Deterrence abilities by 40%."
       ],
       "requires": null,
       "ability": null
@@ -1708,12 +1703,12 @@
       "requires": null,
       "ability": {
        "details": [
-        "61 Mana",
+        "5.81% of base mana",
         "Melee Range",
         "Instant",
         "8 sec cooldown"
        ],
-       "requiresText": null
+       "requiresText": "Requires Melee Weapon"
       }
      },
      {
@@ -1780,11 +1775,11 @@
       "col": 1,
       "maxRank": 5,
       "ranks": [
-       "Increases your chance to hit with your Arcane spells by 1%.",
-       "Increases your chance to hit with your Arcane spells by 2%.",
-       "Increases your chance to hit with your Arcane spells by 3%.",
-       "Increases your chance to hit with your Arcane spells by 4%.",
-       "Increases your chance to hit with your Arcane spells by 5%."
+       "Improves your chance to hit with Arcane spells by 1%.",
+       "Improves your chance to hit with Arcane spells by 2%.",
+       "Improves your chance to hit with Arcane spells by 3%.",
+       "Improves your chance to hit with Arcane spells by 4%.",
+       "Improves your chance to hit with Arcane spells by 5%."
       ],
       "requires": null,
       "ability": null
@@ -1902,12 +1897,12 @@
       "col": 3,
       "maxRank": 1,
       "ranks": [
-       "Blasts the target with energy, dealing 95 to 104 Arcane damage. Each time you cast Arcane Blast, the damage of all your other spells is increased by 10% and the mana cost of Arcane Blast is increased by 175%. Effect stacks up to 4 times and lasts 8 sec or until any other damage spell is cast."
+       "Blasts the target with energy, dealing (71.4% of Spell Power) Arcane damage. Each time you cast Arcane Blast, the damage of all your other spells is increased by 10% and the mana cost of Arcane Blast is increased by 175%. Effect stacks up to 4 times and lasts 8 sec or until any other damage spell is cast."
       ],
       "requires": null,
       "ability": {
        "details": [
-        "122 Mana",
+        "15% of base mana",
         "30 yd range",
         "2.5 sec cast"
        ],
@@ -1968,7 +1963,7 @@
       "col": 3,
       "maxRank": 1,
       "ranks": [
-       "Gives your Arcane Blast spell a 40% chance, and your Fireball, Frostbolt, and Frostfire Bolt spells a 20% chance to reduce the channeled duration of your next Arcane Missiles spell by 50%, reduce the Mana cost by 100%, and missiles will fire every 0.5 sec."
+       "Gives your Arcane Blast spell a 40% chance, and your Fireball, Frostbolt, and Frostfire Bolt spells a 20% chance to reduce the channeled duration of your next Arcane Missiles spell by 50%, reduce the Mana cost by 100%, and missiles fire every 0.5 sec."
       ],
       "requires": null,
       "ability": null
@@ -2017,9 +2012,9 @@
       "col": 2,
       "maxRank": 3,
       "ranks": [
-       "Increases the damage done by all your spells by 1% and your critical strike chance with all attacks by 1%.",
-       "Increases the damage done by all your spells by 2% and your critical strike chance with all attacks by 2%.",
-       "Increases the damage done by all your spells by 3% and your critical strike chance with all attacks by 3%."
+       "Increases the damage done by your spells by 1% and your critical strike chance by 1%.",
+       "Increases the damage done by your spells by 2% and your critical strike chance by 2%.",
+       "Increases the damage done by your spells by 3% and your critical strike chance by 3%."
       ],
       "requires": null,
       "ability": null
@@ -2056,7 +2051,7 @@
      {
       "id": 105797,
       "name": "Wake of Fire",
-      "icon": "spell_fire_fireball",
+      "icon": "spell_fire_lavaspawn",
       "row": 0,
       "col": 0,
       "maxRank": 2,
@@ -2183,7 +2178,7 @@
       "col": 2,
       "maxRank": 1,
       "ranks": [
-       "Hurls an immense fiery boulder that causes 155 to 185 Fire damage and an additional 76 Fire damage over 12 sec."
+       "Hurls an immense fiery boulder that causes (100% of Spell Power) Fire damage and an additional (60% of Spell Power) Fire damage over 12 sec."
       ],
       "requires": null,
       "ability": {
@@ -2278,7 +2273,7 @@
       "col": 2,
       "maxRank": 1,
       "ranks": [
-       "A wave of flame radiates outward from the caster, damaging all enemies caught within the blast for 160 to 191 Fire damage, and Dazing them for 50% reduced movement speed for 6 sec."
+       "A wave of flame radiates outward from the caster, damaging all enemies caught within the blast for (12.9% of Spell Power) Fire damage, and Dazing them for 50% reduced movement speed for 6 sec."
       ],
       "requires": null,
       "ability": {
@@ -2375,11 +2370,11 @@
       "col": 2,
       "maxRank": 5,
       "ranks": [
-       "Increases your chance to hit with Frost and Fire spells by 1%.",
-       "Increases your chance to hit with Frost and Fire spells by 2%.",
-       "Increases your chance to hit with Frost and Fire spells by 3%.",
-       "Increases your chance to hit with Frost and Fire spells by 4%.",
-       "Increases your chance to hit with Frost and Fire spells by 5%."
+       "Improves your chance to hit with Frost and Fire spells by 1%.",
+       "Improves your chance to hit with Frost and Fire spells by 2%.",
+       "Improves your chance to hit with Frost and Fire spells by 3%.",
+       "Improves your chance to hit with Frost and Fire spells by 4%.",
+       "Improves your chance to hit with Frost and Fire spells by 5%."
       ],
       "requires": null,
       "ability": null
@@ -2483,7 +2478,7 @@
       "col": 2,
       "maxRank": 1,
       "ranks": [
-       "Deals 28 to 33 Frost damage to an enemy target. Deals 300% increased damage to Frozen targets."
+       "Deals <!--ppl20:26:28:35-->30 Frost damage to an enemy target. Deals 300% increased damage to Frozen targets."
       ],
       "requires": null,
       "ability": {
@@ -2601,8 +2596,8 @@
       "col": 2,
       "maxRank": 2,
       "ranks": [
-       "Gives your Chill effects a 15% chance to grant you the Fingers of Frost effect, which treats your next 1 spell cast as if the target were Frozen. Lasts 15 sec.",
-       "Gives your Chill effects a 15% chance to grant you the Fingers of Frost effect, which treats your next 2 spells cast as if the target were Frozen. Lasts 15 sec."
+       "Gives your Chill effects a 15% chance to grant you the Fingers of Frost effect, which treats your next 1 <!--singular:spell:spells-->spell<!--singular--> cast as if the target were Frozen. Lasts 15 sec.",
+       "Gives your Chill effects a 15% chance to grant you the Fingers of Frost effect, which treats your next 2 <!--singular:spell:spells-->spells<!--singular--> cast as if the target were Frozen. Lasts 15 sec."
       ],
       "requires": {
        "id": 105767,
@@ -2635,7 +2630,7 @@
       "col": 1,
       "maxRank": 1,
       "ranks": [
-       "Instantly shields you, absorbing 431 damage. Lasts 1 min. While the shield holds, your spellcasts will not be interrupted or delayed from taking damage."
+       "Instantly shields you, absorbing <!--ppl40:46:431:280-->448 damage. Lasts 1 min. While the shield holds, your spellcasts will not be interrupted or delayed from taking damage."
       ],
       "requires": {
        "id": 105766,
@@ -2860,7 +2855,7 @@
       "requires": null,
       "ability": {
        "details": [
-        "37 Mana",
+        "4% of base mana",
         "Instant",
         "2 min cooldown"
        ],
@@ -2875,9 +2870,9 @@
       "col": 0,
       "maxRank": 3,
       "ranks": [
-       "Increases your chance to hit with Holy spells by 6%.",
-       "Increases your chance to hit with Holy spells by 12%.",
-       "Increases your chance to hit with Holy spells by 18%."
+       "Improves your chance to hit with Holy spells by 6%.",
+       "Improves your chance to hit with Holy spells by 12%.",
+       "Improves your chance to hit with Holy spells by 18%."
       ],
       "requires": {
        "id": 105323,
@@ -2893,15 +2888,14 @@
       "col": 1,
       "maxRank": 1,
       "ranks": [
-       "Blasts the target with Holy energy, causing 129 to 139 Holy damage to an enemy, or 110 to 118 healing to an ally."
+       "Blasts the target with Holy energy, causing (42.9% of Spell Power) Holy damage to an enemy, or (42.9% of Spell Power) healing to an ally."
       ],
       "requires": null,
       "ability": {
        "details": [
         "160 Mana",
+        "20 - 40 yd range",
         "Instant",
-        "Enemy: 20 yd range",
-        "Friendly: 40 yd range",
         "10 sec cooldown"
        ],
        "requiresText": null
@@ -2946,7 +2940,7 @@
       "col": 1,
       "maxRank": 1,
       "ranks": [
-       "Applies Light's Vigil to the target for 30 sec. Your next Holy Shock cast on them triggers no cooldown and causes friendly targets to heal their party for 315 to 333, or enemy targets to suffer 175 to 189 Holy damage and refund 75% of Light's Vigil's Mana cost. You may only have 1 Light's Vigil active per Paladin, per party."
+       "Applies Light's Vigil to the target for 30 sec. Your next Holy Shock cast on them triggers no cooldown and causes friendly targets to heal their party for (14.3% of Spell Power), or enemy targets to suffer (42.9% of Spell Power) Holy damage and refund 75% of Light's Vigil's Mana cost.  You may only have 1 Light's Vigil active per Paladin, per party."
       ],
       "requires": {
        "id": 105323,
@@ -2955,9 +2949,8 @@
       "ability": {
        "details": [
         "730 Mana",
+        "20 - 40 yd range",
         "1.5 sec cast",
-        "Enemy: 20 yd range",
-        "Friendly: 40 yd range",
         "6 sec cooldown"
        ],
        "requiresText": null
@@ -3012,9 +3005,9 @@
       "col": 0,
       "maxRank": 3,
       "ranks": [
-       "Increases your chance to hit with all spells and attacks by 1%.",
-       "Increases your chance to hit with all spells and attacks by 2%.",
-       "Increases your chance to hit with all spells and attacks by 3%."
+       "Improves your chance to hit by 1%.",
+       "Improves your chance to hit by 2%.",
+       "Improves your chance to hit by 3%."
       ],
       "requires": null,
       "ability": null
@@ -3058,7 +3051,7 @@
       "col": 0,
       "maxRank": 1,
       "ranks": [
-       "When Seal of Fury's shield is fully absorbed, restore 38 Mana, increased by 15% per level the attacker is above you, up to 45%."
+       "When Seal of Fury's shield is fully absorbed, restore 0 Mana, increased by 15% per level the attacker is above you, up to 45%."
       ],
       "requires": null,
       "ability": null
@@ -3170,7 +3163,7 @@
       "col": 1,
       "maxRank": 1,
       "ranks": [
-       "When activated, this ability grants you an absorb shield equal to 100% of your maximum health for 8 sec.  Applies Forbearance for 1 min. Cannot be cast while Forbearance is active."
+       "When activated, this ability grants you an absorb shield equal to 100% of your maximum health for 8 sec.  Applies Forbearance for 1 min. Cannot be cast while Forbearance is active.<!--cooldown:1224697:4 min cooldown-->"
       ],
       "requires": null,
       "ability": {
@@ -3219,7 +3212,7 @@
      {
       "id": 105628,
       "name": "Holy Shield",
-      "icon": "classic_spell_holy_blessingofprotection",
+      "icon": "spell_holy_blessingofprotection",
       "row": 6,
       "col": 1,
       "maxRank": 1,
@@ -3236,7 +3229,7 @@
         "Instant",
         "10 sec cooldown"
        ],
-       "requiresText": "Requires Shields"
+       "requiresText": null
       }
      }
     ]
@@ -3316,11 +3309,11 @@
       "col": 2,
       "maxRank": 5,
       "ranks": [
-       "Increases your chance to get a critical strike with melee attacks by 1%.",
-       "Increases your chance to get a critical strike with melee attacks by 2%.",
-       "Increases your chance to get a critical strike with melee attacks by 3%.",
-       "Increases your chance to get a critical strike with melee attacks by 4%.",
-       "Increases your chance to get a critical strike with melee attacks by 5%."
+       "Improves your chance to get a critical strike with melee attacks by 1%.",
+       "Improves your chance to get a critical strike with melee attacks by 2%.",
+       "Improves your chance to get a critical strike with melee attacks by 3%.",
+       "Improves your chance to get a critical strike with melee attacks by 4%.",
+       "Improves your chance to get a critical strike with melee attacks by 5%."
       ],
       "requires": null,
       "ability": null
@@ -3333,9 +3326,9 @@
       "col": 0,
       "maxRank": 3,
       "ranks": [
-       "Gives your damaging melee attacks a chance to reduce the target's Attack Power by 42, and increase your Attack Power by 1% for 30 sec.",
-       "Gives your damaging melee attacks a chance to reduce the target's Attack Power by -4, and increase your Attack Power by 2% for 30 sec.",
-       "Gives your damaging melee attacks a chance to reduce the target's Attack Power by -6, and increase your Attack Power by 3% for 30 sec."
+       "Gives your damaging melee attacks a chance to reduce the target's Attack Power by (1 /- 3 * <!--ppl0:60:6:-350--> - 204), and increase your Attack Power by 1% for 30 sec.",
+       "Gives your damaging melee attacks a chance to reduce the target's Attack Power by (2 /- 3 * <!--ppl0:60:6:-350--> - 204), and increase your Attack Power by 2% for 30 sec.",
+       "Gives your damaging melee attacks a chance to reduce the target's Attack Power by (3 /- 3 * <!--ppl0:60:6:-350--> - 204), and increase your Attack Power by 3% for 30 sec."
       ],
       "requires": null,
       "ability": null
@@ -3363,7 +3356,7 @@
       "col": 2,
       "maxRank": 1,
       "ranks": [
-       "Gives the Paladin a chance to deal additional Holy damage equal to 70% of normal weapon damage. Only one Seal can be active on the Paladin at any one time. Lasts 30 sec.\n\nUnleashing this Seal's energy will judge an enemy, instantly causing 68 to 73 Holy damage, 137 to 146 if the target is stunned or incapacitated."
+       "Gives the Paladin a chance to deal additional Holy damage equal to 70% of normal weapon damage.  Only one Seal can be active on the Paladin at any one time.  Lasts 30 sec.<br /><br />Unleashing this Seal's energy will judge an enemy, instantly causing (42.9% of Spell Power) Holy damage, (42.9% of Spell Power) if the target is stunned or incapacitated."
       ],
       "requires": null,
       "ability": {
@@ -3476,8 +3469,8 @@
       "ability": {
        "details": [
         "60 Mana",
-        "Instant",
         "20 yd range",
+        "Instant",
         "1 min cooldown"
        ],
        "requiresText": null
@@ -3605,9 +3598,9 @@
       "col": 1,
       "maxRank": 3,
       "ranks": [
-       "Increases your chance to hit with Holy spells by 6%.",
-       "Increases your chance to hit with Holy spells by 12%.",
-       "Increases your chance to hit with Holy spells by 18%."
+       "Improves your chance to hit with Holy spells by 6%.",
+       "Improves your chance to hit with Holy spells by 12%.",
+       "Improves your chance to hit with Holy spells by 18%."
       ],
       "requires": null,
       "ability": null
@@ -3747,7 +3740,7 @@
       "maxRank": 2,
       "ranks": [
        "Reduces the casting time of your Mana Burn spell by 0.5 sec.",
-       "Reduces the casting time of your Mana Burn spell by 1 sec."
+       "Reduces the casting time of your Mana Burn spell by 1.0 sec."
       ],
       "requires": null,
       "ability": null
@@ -3760,13 +3753,13 @@
       "col": 1,
       "maxRank": 1,
       "ranks": [
-       "Launches a volley of holy light at the target, causing 96 Holy damage to an enemy, or 233 healing to an ally. Instantly and every 1 sec for 2 sec."
+       "Launches a volley of holy light at the target, causing (28.5% of Spell Power) Holy damage to an enemy, or (28.5% of Spell Power) healing to an ally, instantly and every 1 sec for 2 sec."
       ],
       "requires": null,
       "ability": {
        "details": [
         "100 Mana",
-        "Enemy: 36 yd range / Friendly: 40 yd range",
+        "36 - 40 yd range",
         "Channeled",
         "12 sec cooldown"
        ],
@@ -3824,7 +3817,7 @@
       },
       "ability": {
        "details": [
-        "173 Mana",
+        "20% of base mana",
         "30 yd range",
         "Instant",
         "3 min cooldown"
@@ -3928,7 +3921,7 @@
       "col": 0,
       "maxRank": 1,
       "ranks": [
-       "Causes an explosion of holy light around the caster, causing 31 to 36 Holy damage to all enemy targets within 10 yards and healing all party members within 10 yards for 68 to 77. These effects cause no threat."
+       "Causes an explosion of holy light around the caster, causing (10.7% of Spell Power) Holy damage to all enemy targets within 10 yards and healing all party members within 10 yards for (10.7% of Spell Power). These effects cause no threat."
       ],
       "requires": null,
       "ability": {
@@ -4023,7 +4016,7 @@
       "col": 3,
       "maxRank": 1,
       "ranks": [
-       "Heals a friendly target and the caster for 346 to 403. Low threat."
+       "Heals a friendly target and the caster for (42.9% of Spell Power). Low threat."
       ],
       "requires": null,
       "ability": {
@@ -4102,7 +4095,7 @@
       "col": 1,
       "maxRank": 1,
       "ranks": [
-       "Places a spell on the target that heals them for 247 the next time they take damage or receive non-periodic healing. When the heal occurs, Prayer of Mending jumps to a party or raid member within 20 yards. Jumps up to 5 times and lasts 30 sec after each jump. This spell can only be placed on one target at a time per caster."
+       "Places a spell on the target that heals them for [(172 + (Healing * <!--bc-->0.42899999<!--bc-->)) * (<!--sp1225132:0-->1<!--sp1225132--> * <!--sp14898:0-->1<!--sp14898-->)] the next time they take damage or receive non-periodic healing. When the heal occurs, Prayer of Mending jumps to a party or raid member within 20 yards. Jumps up to 5 times and lasts 30 sec after each jump. This spell can only be placed on one target at a time per caster."
       ],
       "requires": {
        "id": 105854,
@@ -4133,11 +4126,11 @@
       "col": 0,
       "maxRank": 5,
       "ranks": [
-       "Increases your chance to hit with your Shadow spells by 1%.",
-       "Increases your chance to hit with your Shadow spells by 2%.",
-       "Increases your chance to hit with your Shadow spells by 3%.",
-       "Increases your chance to hit with your Shadow spells by 4%.",
-       "Increases your chance to hit with your Shadow spells by 5%."
+       "Improves your chance to hit with Shadow spells by 1%.",
+       "Improves your chance to hit with Shadow spells by 2%.",
+       "Improves your chance to hit with Shadow spells by 3%.",
+       "Improves your chance to hit with Shadow spells by 4%.",
+       "Improves your chance to hit with Shadow spells by 5%."
       ],
       "requires": null,
       "ability": null
@@ -4261,14 +4254,14 @@
       "col": 2,
       "maxRank": 1,
       "ranks": [
-       "Assault the target's mind with Shadow energy, causing 104 Shadow damage over 3 sec and slowing their movement speed by 50%."
+       "Assault the target's mind with Shadow energy, causing (50.1% of Spell Power) Shadow damage over 3 sec  and slowing their movement speed by <!--sp1225139:0-->50<!--sp1225139-->%."
       ],
       "requires": null,
       "ability": {
        "details": [
         "45 Mana",
         "20 yd range",
-        "Channeled"
+        "Channeled (3 sec cast)"
        ],
        "requiresText": null
       }
@@ -4369,8 +4362,8 @@
       "col": 2,
       "maxRank": 2,
       "ranks": [
-       "Reduces the mana cost of your Devouring Plague by 25%.\n\nTargets that die while Devouring Plague is active spreads it, jumping to a nearby enemy within 5 yards for the remaining duration.",
-       "Reduces the mana cost of your Devouring Plague by 50%.\n\nTargets that die while Devouring Plague it is active spreads it, jumping to a nearby enemy within 10 yards for the remaining duration."
+       "Reduces the mana cost of your Devouring Plague by 25%.<br /><br />Targets that die while Devouring Plague it is active spreads it, jumping to a nearby enemy within 5 yards for the remaining duration.",
+       "Reduces the mana cost of your Devouring Plague by 50%.<br /><br />Targets that die while Devouring Plague it is active spreads it, jumping to a nearby enemy within 10 yards for the remaining duration."
       ],
       "requires": null,
       "ability": null
@@ -4422,7 +4415,7 @@
       },
       "ability": {
        "details": [
-        "345 Mana",
+        "40% of base mana",
         "Instant",
         "1.5 sec cooldown"
        ],
@@ -4549,8 +4542,8 @@
       "col": 1,
       "maxRank": 2,
       "ranks": [
-       "Reduces the Energy cost of your Expose Armor ability by 5, and refunds 1 Combo Point when cast with 5 Combo Points.",
-       "Reduces the Energy cost of your Expose Armor ability by 10, and refunds 2 Combo Points when cast with 5 Combo Points."
+       "Reduces the Energy cost of your Expose Armor ability by 5, and refunds 1 Combo <!--singular:Point:Points-->Point<!--singular--> when cast with 5 Combo Points.",
+       "Reduces the Energy cost of your Expose Armor ability by 10, and refunds 2 Combo <!--singular:Point:Points-->Points<!--singular--> when cast with 5 Combo Points."
       ],
       "requires": null,
       "ability": null
@@ -4563,11 +4556,11 @@
       "col": 2,
       "maxRank": 5,
       "ranks": [
-       "Increases the critical strike damage bonus of your Sinister Strike, Gouge, Backstab, Mutilate, Ghostly Strike, and Hemorrhage abilities by 6%.",
+       "Increases the critical strike damage bonus of your Sinister Strike, Gouge, Backstab, Mutilate, Ghostly Strike, and Hemorrhage abilities by 4%.",
+       "Increases the critical strike damage bonus of your Sinister Strike, Gouge, Backstab, Mutilate, Ghostly Strike, and Hemorrhage abilities by 8%.",
        "Increases the critical strike damage bonus of your Sinister Strike, Gouge, Backstab, Mutilate, Ghostly Strike, and Hemorrhage abilities by 12%.",
-       "Increases the critical strike damage bonus of your Sinister Strike, Gouge, Backstab, Mutilate, Ghostly Strike, and Hemorrhage abilities by 18%.",
-       "Increases the critical strike damage bonus of your Sinister Strike, Gouge, Backstab, Mutilate, Ghostly Strike, and Hemorrhage abilities by 24%.",
-       "Increases the critical strike damage bonus of your Sinister Strike, Gouge, Backstab, Mutilate, Ghostly Strike, and Hemorrhage abilities by 30%."
+       "Increases the critical strike damage bonus of your Sinister Strike, Gouge, Backstab, Mutilate, Ghostly Strike, and Hemorrhage abilities by 16%.",
+       "Increases the critical strike damage bonus of your Sinister Strike, Gouge, Backstab, Mutilate, Ghostly Strike, and Hemorrhage abilities by 20%."
       ],
       "requires": {
        "id": 105722,
@@ -4650,7 +4643,7 @@
       "col": 1,
       "maxRank": 1,
       "ranks": [
-       "Instantly attacks with both weapons for 75% weapon damage plus an additional 13 with each weapon. Damage increased by 20% against Poisoned targets. Awards 2 Combo Points."
+       "Instantly attacks with both weapons for 75% weapon damage plus an additional 17 with each weapon. Damage increased by 20% against Poisoned targets. Awards 2 Combo <!--singular:Point:Points-->Points<!--singular-->."
       ],
       "requires": null,
       "ability": {
@@ -4701,7 +4694,7 @@
       "col": 1,
       "maxRank": 1,
       "ranks": [
-       "Finishing move that increases the damage of your Poisons by 30% and your chance to apply Poisons by 10%. Lasts longer per combo point:\n   1 point: 9 seconds\n   2 points: 12 seconds\n   3 points: 15 seconds\n   4 points: 18 seconds\n   5 points: 21 seconds"
+       "Finishing move that increases the damage of your Poisons by 30% and your chance to apply Poisons by 10%.  Lasts longer per combo point:<br />   1 point  : 9 seconds<br />   2 points: 12 seconds<br />   3 points: 15 seconds<br />   4 points: 18 seconds<br />   5 points: 21 seconds"
       ],
       "requires": {
        "id": 105709,
@@ -4709,11 +4702,11 @@
       },
       "ability": {
        "details": [
-        "25 Energy",
-        "1 to 5 Combo Points",
+        "25 Energy / 1 to 5 Combo Points",
+        "100 yd range",
         "Instant"
        ],
-       "requiresText": null
+       "requiresText": "Requires Melee Weapon"
       }
      }
     ]
@@ -4807,9 +4800,9 @@
       "col": 2,
       "maxRank": 3,
       "ranks": [
-       "Increases your chance to hit with all attacks and Poisons by 1%.",
-       "Increases your chance to hit with all attacks and Poisons by 2%.",
-       "Increases your chance to hit with all attacks and Poisons by 3%."
+       "Improves your chance to hit by 1%.",
+       "Improves your chance to hit by 2%.",
+       "Improves your chance to hit by 3%."
       ],
       "requires": null,
       "ability": null
@@ -4882,13 +4875,13 @@
      },
      {
       "id": 108100,
-      "name": "Restless Blades",
-      "icon": "ability_rogue_restlessblades",
+      "name": "Flawless Execution",
+      "icon": "inv_sword_35",
       "row": 3,
       "col": 1,
       "maxRank": 1,
       "ranks": [
-       "Your damaging finishing moves reduce the remaining cooldown of your Adrenaline Rush, Blade Flurry, Evasion, Sprint, and Vanish abilities by 2 sec per combo point."
+       "Reduces the Energy cost of your Eviscerate ability by 10."
       ],
       "requires": null,
       "ability": null
@@ -4941,11 +4934,11 @@
       "col": 2,
       "maxRank": 5,
       "ranks": [
-       "Gives your melee weapon attacks a benefit depending on the weapon.\n\n    Axe/Sword: Your successful\n    melee attacks have a 1% chance\n    to trigger an extra attack on the \n    target.\n\n    Dagger/Fist: Increases your\n    critical strike chance by 1%.\n\n    Mace: Your attacks ignore 3% of\n    your target's armor.",
-       "Gives your melee weapon attacks a benefit depending on the weapon.\n\n    Axe/Sword: Your successful\n    melee attacks have a 2% chance\n    to trigger an extra attack on the \n    target.\n\n    Dagger/Fist: Increases your\n    critical strike chance by 2%.\n\n    Mace: Your attacks ignore 6% of\n    your target's armor.",
-       "Gives your melee weapon attacks a benefit depending on the weapon.\n\n    Axe/Sword: Your successful\n    melee attacks have a 3% chance\n    to trigger an extra attack on the \n    target.\n\n    Dagger/Fist: Increases your\n    critical strike chance by 3%.\n\n    Mace: Your attacks ignore 9% of\n    your target's armor.",
-       "Gives your melee weapon attacks a benefit depending on the weapon.\n\n    Axe/Sword: Your successful\n    melee attacks have a 4% chance\n    to trigger an extra attack on the \n    target.\n\n    Dagger/Fist: Increases your\n    critical strike chance by 4%.\n\n    Mace: Your attacks ignore 12% of\n    your target's armor.",
-       "Gives your melee weapon attacks a benefit depending on the weapon.\n\n    Axe/Sword: Your successful\n    melee attacks have a 5% chance\n    to trigger an extra attack on the \n    target.\n\n    Dagger/Fist: Increases your\n    critical strike chance by 5%.\n\n    Mace: Your attacks ignore 15% of\n    your target's armor."
+       "Gives your melee weapon attacks a benefit depending on the weapon.<br /><br />    <span style=\"color: #FFFFFF\">Axe/Sword:</span> Your successful<br />    melee attacks have a 1% chance<br />    to trigger an extra attack on the <br />    target.<br /><br />    <span style=\"color: #FFFFFF\">Dagger/Fist:</span> Increases your<br />    critical strike chance by 1%.<br /><br />    <span style=\"color: #FFFFFF\">Mace:</span> Your attacks ignore 3% of<br />    your target's armor.",
+       "Gives your melee weapon attacks a benefit depending on the weapon.<br /><br />    <span style=\"color: #FFFFFF\">Axe/Sword:</span> Your successful<br />    melee attacks have a 2% chance<br />    to trigger an extra attack on the <br />    target.<br /><br />    <span style=\"color: #FFFFFF\">Dagger/Fist:</span> Increases your<br />    critical strike chance by 2%.<br /><br />    <span style=\"color: #FFFFFF\">Mace:</span> Your attacks ignore 6% of<br />    your target's armor.",
+       "Gives your melee weapon attacks a benefit depending on the weapon.<br /><br />    <span style=\"color: #FFFFFF\">Axe/Sword:</span> Your successful<br />    melee attacks have a 3% chance<br />    to trigger an extra attack on the <br />    target.<br /><br />    <span style=\"color: #FFFFFF\">Dagger/Fist:</span> Increases your<br />    critical strike chance by 3%.<br /><br />    <span style=\"color: #FFFFFF\">Mace:</span> Your attacks ignore 9% of<br />    your target's armor.",
+       "Gives your melee weapon attacks a benefit depending on the weapon.<br /><br />    <span style=\"color: #FFFFFF\">Axe/Sword:</span> Your successful<br />    melee attacks have a 4% chance<br />    to trigger an extra attack on the <br />    target.<br /><br />    <span style=\"color: #FFFFFF\">Dagger/Fist:</span> Increases your<br />    critical strike chance by 4%.<br /><br />    <span style=\"color: #FFFFFF\">Mace:</span> Your attacks ignore 12% of<br />    your target's armor.",
+       "Gives your melee weapon attacks a benefit depending on the weapon.<br /><br />    <span style=\"color: #FFFFFF\">Axe/Sword:</span> Your successful<br />    melee attacks have a 5% chance<br />    to trigger an extra attack on the <br />    target.<br /><br />    <span style=\"color: #FFFFFF\">Dagger/Fist:</span> Increases your<br />    critical strike chance by 5%.<br /><br />    <span style=\"color: #FFFFFF\">Mace:</span> Your attacks ignore 15% of<br />    your target's armor."
       ],
       "requires": null,
       "ability": null
@@ -5033,9 +5026,9 @@
       "col": 1,
       "maxRank": 3,
       "ranks": [
-       "Reduces the chance enemies have to detect you while in Stealth mode as if you were 1 level higher.",
-       "Reduces the chance enemies have to detect you while in Stealth mode as if you were 2 levels higher.",
-       "Reduces the chance enemies have to detect you while in Stealth mode as if you were 3 levels higher."
+       "Reduces the chance enemies have to detect you while in Stealth mode as if you were 1 <!--singular:level:levels-->levels<!--singular--> higher.",
+       "Reduces the chance enemies have to detect you while in Stealth mode as if you were 2 <!--singular:level:levels-->levels<!--singular--> higher.",
+       "Reduces the chance enemies have to detect you while in Stealth mode as if you were 3 <!--singular:level:levels-->levels<!--singular--> higher."
       ],
       "requires": null,
       "ability": null
@@ -5078,7 +5071,7 @@
       "maxRank": 2,
       "ranks": [
        "Reduces the cooldown of your Vanish and Blind abilities by 45 sec.",
-       "Reduces the cooldown of your Vanish and Blind abilities by 1.5 min."
+       "Reduces the cooldown of your Vanish and Blind abilities by 90 sec."
       ],
       "requires": null,
       "ability": null
@@ -5135,7 +5128,7 @@
       "col": 1,
       "maxRank": 1,
       "ranks": [
-       "A strike that deals 125% (180% if a Dagger is equipped in your Main Hand) weapon damage and increases your chance to dodge by 15% for 7 sec. Awards 1 combo point."
+       "A strike that deals 125% (180% if a Dagger is equipped in your Main Hand) weapon damage and increases your chance to dodge by 15% for 7 sec.  Awards 1 combo <!--singular:point:points-->point<!--singular-->."
       ],
       "requires": null,
       "ability": {
@@ -5145,7 +5138,7 @@
         "Instant",
         "20 sec cooldown"
        ],
-       "requiresText": null
+       "requiresText": "Requires Melee Weapon"
       }
      },
      {
@@ -5156,8 +5149,8 @@
       "col": 2,
       "maxRank": 2,
       "ranks": [
-       "Increases the radius of your Distract ability by 3 yds, and further reduces the Stealth detection of distracted enemies as though they were an additional 1 level lower.",
-       "Increases the radius of your Distract ability by 5 yds, and further reduces the Stealth detection of distracted enemies as though they were an additional 2 levels lower."
+       "Increases the radius of your Distract ability by 3 yds, and further reduces the Stealth detection of distracted enemies as though they were an additional 1 <!--singular:level:levels-->levels<!--singular--> lower.",
+       "Increases the radius of your Distract ability by 5 yds, and further reduces the Stealth detection of distracted enemies as though they were an additional 2 <!--singular:level:levels-->levels<!--singular--> lower."
       ],
       "requires": null,
       "ability": null
@@ -5170,8 +5163,8 @@
       "col": 0,
       "maxRank": 2,
       "ranks": [
-       "Increases your Stealth detection as if you were 1 level higher and reduces your chance to be hit by spells and ranged attacks by 2%.",
-       "Increases your Stealth detection as if you were 3 levels higher and reduces your chance to be hit by spells and ranged attacks by 4%."
+       "Increases your Stealth detection as if you were 1 <!--singular:level:levels-->levels<!--singular--> higher and reduces your chance to be hit by spells and ranged attacks by 2%.",
+       "Increases your Stealth detection as if you were 3 <!--singular:level:levels-->levels<!--singular--> higher and reduces your chance to be hit by spells and ranged attacks by 4%."
       ],
       "requires": null,
       "ability": null
@@ -5184,7 +5177,7 @@
       "col": 1,
       "maxRank": 1,
       "ranks": [
-       "Adds 2 Combo Points to your target.  You must add to or use those combo points within 20 sec or the combo points are lost."
+       "Adds 2 Combo Points to your target. You must add to or use those combo points within 20 sec or the combo points are lost."
       ],
       "requires": null,
       "ability": {
@@ -5252,7 +5245,7 @@
       "col": 2,
       "maxRank": 1,
       "ranks": [
-       "An instant strike that deals 100% weapon damage (145% if a Dagger is equipped) and causes the target to take 15% increased Rupture damage from the Rogue. Lasts 15 sec. Awards 1 Combo Point."
+       "An instant strike that deals 100% weapon damage (145% if a Dagger is equipped) and causes the target to take 15% increased Rupture damage from the Rogue. Lasts 15 sec. Awards 1 Combo <!--singular:Point:Points-->Point<!--singular-->."
       ],
       "requires": {
        "id": 105752,
@@ -5264,7 +5257,7 @@
         "Melee Range",
         "Instant"
        ],
-       "requiresText": null
+       "requiresText": "Requires Melee Weapon"
       }
      },
      {
@@ -5390,7 +5383,7 @@
        "Reduces the cooldown of your Shock spells by 0.4 sec.",
        "Reduces the cooldown of your Shock spells by 0.6 sec.",
        "Reduces the cooldown of your Shock spells by 0.8 sec.",
-       "Reduces the cooldown of your Shock spells by 1 sec."
+       "Reduces the cooldown of your Shock spells by 1.0 sec."
       ],
       "requires": null,
       "ability": null
@@ -5413,7 +5406,7 @@
      {
       "id": 104769,
       "name": "Elemental Devastation",
-      "icon": "classic_spell_fire_elementaldevastation",
+      "icon": "spell_fire_elementaldevastation",
       "row": 1,
       "col": 3,
       "maxRank": 3,
@@ -5552,7 +5545,7 @@
       "ranks": [
        "Reduces the cast time of your Lightning Bolt, Chain Lightning, and Lava Burst spells by 0.17 sec.",
        "Reduces the cast time of your Lightning Bolt, Chain Lightning, and Lava Burst spells by 0.33 sec.",
-       "Reduces the cast time of your Lightning Bolt, Chain Lightning, and Lava Burst spells by 0.5 sec."
+       "Reduces the cast time of your Lightning Bolt, Chain Lightning, and Lava Burst spells by 0.50 sec."
       ],
       "requires": {
        "id": 104762,
@@ -5568,7 +5561,7 @@
       "col": 1,
       "maxRank": 1,
       "ranks": [
-       "You hurl molten lava at the target, dealing 158 to 187 Fire damage. If your Flame Shock is on the target, Lava Burst deals 20% increased damage."
+       "You hurl molten lava at the target, dealing (71.4% of Spell Power) Fire damage. If your Flame Shock is on the target, Lava Burst deals 20% increased damage."
       ],
       "requires": {
        "id": 104759,
@@ -5676,8 +5669,8 @@
       "col": 2,
       "maxRank": 2,
       "ranks": [
-       "Reduces the cast time of your Ghost Wolf spell by 1.0 sec. and Ghost Wolf may be used indoors.",
-       "Reduces the cast time of your Ghost Wolf spell by 3 sec, and Ghost Wolf may be used indoors."
+       "Reduces the cast time of your Ghost Wolf spell by 1.0 sec, and Ghost Wolf may be used indoors.",
+       "Reduces the cast time of your Ghost Wolf spell by 3.0 sec, and Ghost Wolf may be used indoors."
       ],
       "requires": null,
       "ability": null
@@ -5706,7 +5699,7 @@
       "maxRank": 3,
       "ranks": [
        "Increases the melee attack power bonus of your Rockbiter Weapon by 7%, your Windfury Weapon effect by 13% and increases the damage caused by your Flametongue Weapon and Frostbrand Weapon by 5%.",
-       "Increases the melee attack power bonus of your Rockbiter Weapon by 14%, your Windfury Weapon effect by 27% and increases the damage caused by your Flametongue Weapon and Frostbrand Weapon by 10%.",
+       "Increases the melee attack power bonus of your Rockbiter Weapon by 13%, your Windfury Weapon effect by 27% and increases the damage caused by your Flametongue Weapon and Frostbrand Weapon by 10%.",
        "Increases the melee attack power bonus of your Rockbiter Weapon by 20%, your Windfury Weapon effect by 40% and increases the damage caused by your Flametongue Weapon and Frostbrand Weapon by 15%."
       ],
       "requires": null,
@@ -5785,7 +5778,7 @@
       "col": 2,
       "maxRank": 1,
       "ranks": [
-       "Instantly strike for normal weapon damage and increase Nature damage you deal to the target by 20% for 12 sec."
+       "Instantly strike for normal weapon damage and increase the damage you deal to the target with your next Lightning Bolt, Chain Lightning, or Earth Shock spell by 20% for 12 sec."
       ],
       "requires": null,
       "ability": {
@@ -5907,17 +5900,17 @@
      },
      {
       "id": 104729,
-      "name": "Tidal Mastery",
-      "icon": "spell_nature_tranquility",
+      "name": "Totemic Focus",
+      "icon": "spell_nature_moonglow",
       "row": 0,
       "col": 2,
       "maxRank": 5,
       "ranks": [
-       "Increases the critical effect chance of your healing spells by 1%.",
-       "Increases the critical effect chance of your healing spells by 2%.",
-       "Increases the critical effect chance of your healing spells by 3%.",
-       "Increases the critical effect chance of your healing spells by 4%.",
-       "Increases the critical effect chance of your healing spells by 5%."
+       "Reduces the Mana cost of your totems and any spells that summon or move them by 5%.",
+       "Reduces the Mana cost of your totems and any spells that summon or move them by 10%.",
+       "Reduces the Mana cost of your totems and any spells that summon or move them by 15%.",
+       "Reduces the Mana cost of your totems and any spells that summon or move them by 20%.",
+       "Reduces the Mana cost of your totems and any spells that summon or move them by 25%."
       ],
       "requires": null,
       "ability": null
@@ -5960,11 +5953,11 @@
       "col": 2,
       "maxRank": 5,
       "ranks": [
-       "Reduces the Mana cost of your healing spells by 1% and increases your chance to hit with all spells and attacks by 1%.",
-       "Reduces the Mana cost of your healing spells by 2% and increases your chance to hit with all spells and attacks by 2%.",
-       "Reduces the Mana cost of your healing spells by 3% and increases your chance to hit with all spells and attacks by 3%.",
-       "Reduces the Mana cost of your healing spells by 4% and increases your chance to hit with all spells and attacks by 4%.",
-       "Reduces the Mana cost of your healing spells by 5% and increases your chance to hit with all spells and attacks by 5%."
+       "Reduces the Mana cost of your healing spells by 1% and improves your chance to hit by 1%.",
+       "Reduces the Mana cost of your healing spells by 2% and improves your chance to hit by 2%.",
+       "Reduces the Mana cost of your healing spells by 3% and improves your chance to hit by 3%.",
+       "Reduces the Mana cost of your healing spells by 4% and improves your chance to hit by 4%.",
+       "Reduces the Mana cost of your healing spells by 5% and improves your chance to hit by 5%."
       ],
       "requires": null,
       "ability": null
@@ -5992,7 +5985,7 @@
       "maxRank": 3,
       "ranks": [
        "Increases your target's armor value by 8% for 15 sec after getting a critical effect from one of your healing spells.",
-       "Increases your target's armor value by 16% for 15 sec after getting a critical effect from one of your healing spells.",
+       "Increases your target's armor value by 17% for 15 sec after getting a critical effect from one of your healing spells.",
        "Increases your target's armor value by 25% for 15 sec after getting a critical effect from one of your healing spells."
       ],
       "requires": null,
@@ -6021,7 +6014,7 @@
       "col": 2,
       "maxRank": 1,
       "ranks": [
-       "The caster is surrounded by 3 globes of water. When a spell, melee, or ranged attack hits the caster or when one of the caster's healing spells gets a critical result, 2% of maximum mana is restored to the caster, expending one water globe. Only one globe will activate every few seconds.  Lasts 10 min.\n\nOnly one Elemental Shield can be active on the Shaman at any one time."
+       "The caster is surrounded by 3 globes of water. When a spell, melee, or ranged attack hits the caster or when one of the caster's healing spells gets a critical result, 2% of maximum mana is restored to the caster, expending one water globe. Only one globe will activate every few seconds.  Lasts 10 min.<br /><br />Only one Elemental Shield can be active on the Shaman at any one time."
       ],
       "requires": null,
       "ability": {
@@ -6034,17 +6027,17 @@
      },
      {
       "id": 104738,
-      "name": "Totemic Focus",
-      "icon": "spell_nature_moonglow",
+      "name": "Tidal Mastery",
+      "icon": "spell_nature_tranquility",
       "row": 3,
       "col": 0,
       "maxRank": 5,
       "ranks": [
-       "Reduces the Mana cost of your totems and any spells that summon or move them by 5%.",
-       "Reduces the Mana cost of your totems and any spells that summon or move them by 10%.",
-       "Reduces the Mana cost of your totems and any spells that summon or move them by 15%.",
-       "Reduces the Mana cost of your totems and any spells that summon or move them by 20%.",
-       "Reduces the Mana cost of your totems and any spells that summon or move them by 25%."
+       "Increases the critical effect chance of your healing spells by 1%.",
+       "Increases the critical effect chance of your healing spells by 2%.",
+       "Increases the critical effect chance of your healing spells by 3%.",
+       "Increases the critical effect chance of your healing spells by 4%.",
+       "Increases the critical effect chance of your healing spells by 5%."
       ],
       "requires": null,
       "ability": null
@@ -6081,8 +6074,7 @@
        "details": [
         "10 Mana",
         "Instant",
-        "5 min cooldown",
-        "Tools: Water Totem"
+        "5 min cooldown"
        ],
        "requiresText": null
       }
@@ -6090,7 +6082,7 @@
      {
       "id": 104727,
       "name": "Healing Way",
-      "icon": "classic_spell_nature_healingway",
+      "icon": "spell_nature_healingway",
       "row": 4,
       "col": 1,
       "maxRank": 3,
@@ -6146,7 +6138,7 @@
       "col": 1,
       "maxRank": 1,
       "ranks": [
-       "Heals a friendly target for 479 to 528, an additional 499 over 15 sec, and increases the effectiveness of your Chain Heal casts directly on that target by 25%."
+       "Heals a friendly target for (21.4% of Spell Power), an additional (50% of Spell Power) over 15 sec, and increases the effectiveness of your Chain Heal casts directly on that target by 25%."
       ],
       "requires": {
        "id": 104727,
@@ -6193,11 +6185,11 @@
       "col": 1,
       "maxRank": 5,
       "ranks": [
-       "Increases your chance to hit with all spells and attacks by 1% and reduces all threat you generate by 4%.",
-       "Increases your chance to hit with all spells and attacks by 2% and reduces all threat you generate by 8%.",
-       "Increases your chance to hit with all spells and attacks by 3% and reduces all threat you generate by 12%.",
-       "Increases your chance to hit with all spells and attacks by 4% and reduces all threat you generate by 16%.",
-       "Increases your chance to hit with all spells and attacks by 5% and reduces all threat you generate by 20%."
+       "Improves your chance to hit by 1% and reduces all threat you generate by 4%.",
+       "Improves your chance to hit by 2% and reduces all threat you generate by 8%.",
+       "Improves your chance to hit by 3% and reduces all threat you generate by 12%.",
+       "Improves your chance to hit by 4% and reduces all threat you generate by 16%.",
+       "Improves your chance to hit by 5% and reduces all threat you generate by 20%."
       ],
       "requires": null,
       "ability": null
@@ -6258,9 +6250,9 @@
       "col": 2,
       "maxRank": 3,
       "ranks": [
-       "Increases the damage done or health drained by your Drain Life and Drain Soul spells by 2% per each of your other Affliction effects active on the target, up to a maximum increase of 6%. When your Drain Soul damages targets below 20% health, this bonus is tripled. Additionally, your Drain Life range is extended by 3 yards.",
-       "Increases the damage done or health drained by your Drain Life and Drain Soul spells by 4% per each of your other Affiction effects active on the target, up to a maximum increase of 12%. When your Drain Soul damages targets below 20% health, this bonus is tripled. Additionally, your Drain Life range is extended by 7 yards.",
-       "Increases the damage done or health drained by your Drain Life and Drain Soul spells by 6% per each of your other Affliction effects active on the target, up to a maximum increase of 18%. When your Drain Soul damages targets below 20% health, this bonus is tripled. Additionally, your Drain Life range is extended by 10 yards."
+       "Increases health drained or damage done by your Drain Life, Drain Soul, and Wrack spells by 7%.",
+       "Increases health drained or damage done by your Drain Life, Drain Soul, and Wrack spells by 13%.",
+       "Increases health drained or damage done by your Drain Life, Drain Soul, and Wrack spells by 20%."
       ],
       "requires": null,
       "ability": null
@@ -6287,9 +6279,9 @@
       "col": 1,
       "maxRank": 3,
       "ranks": [
-       "Gives you a 23% chance to avoid interruption caused by damage while channeling or casting your Drain Life, Drain Mana, or Drain Soul spells.",
-       "Gives you a 47% chance to avoid interruption caused by damage while channeling or casting your Drain Life, Drain Mana, or Drain Soul spells.",
-       "Gives you a 70% chance to avoid interruption caused by damage while channeling or casting your Drain Life, Drain Mana, or Drain Soul spells."
+       "Gives you a 23% chance to avoid interruption caused by damage while channeling or casting your Drain Life, Drain Mana, Drain Soul, or Wrack spells.",
+       "Gives you a 47% chance to avoid interruption caused by damage while channeling or casting your Drain Life, Drain Mana, Drain Soul, or Wrack spells.",
+       "Gives you a 70% chance to avoid interruption caused by damage while channeling or casting your Drain Life, Drain Mana, Drain Soul, or Wrack spells."
       ],
       "requires": null,
       "ability": null
@@ -6321,9 +6313,9 @@
       "col": 3,
       "maxRank": 3,
       "ranks": [
-       "Increases the critical strike damage bonus of your Corruption, Bane of Agony, Bane of Doom, Drain Soul, Drain Life, Siphon Life, and Drain Hope spells by 33%.",
-       "Increases the critical strike damage bonus of your Corruption, Bane of Agony, Bane of Doom, Drain Soul, Drain Life, Siphon Life, and Drain Hope spells by 67%.",
-       "Increases the critical strike damage bonus of your Corruption, Bane of Agony, Bane of Doom, Drain Soul, Drain Life, Siphon Life, and Drain Hope spells by 100%."
+       "Increases the critical strike damage bonus of your Corruption, Bane of Agony, Bane of Doom, Drain Soul, Drain Life, Siphon Life, and Wrack spells by 33%.",
+       "Increases the critical strike damage bonus of your Corruption, Bane of Agony, Bane of Doom, Drain Soul, Drain Life, Siphon Life, and Wrack spells by 67%.",
+       "Increases the critical strike damage bonus of your Corruption, Bane of Agony, Bane of Doom, Drain Soul, Drain Life, Siphon Life, and Wrack spells by 100%."
       ],
       "requires": null,
       "ability": null
@@ -6353,8 +6345,8 @@
       "col": 1,
       "maxRank": 2,
       "ranks": [
-       "Gives your Corruption, Drain Soul, and Drain Life spells a 2% chance to cause you to enter a Shadow Trance after damaging the opponent. The Shadow Trance reduces the casting time of your next Shadow Bolt spell by 100%.",
-       "Gives your Corruption, Drain Soul, and Drain Life spells a 4% chance to cause you to enter a Shadow Trance after damaging the opponent. The Shadow Trance reduces the casting time of your next Shadow Bolt spell by 100%."
+       "Gives your Corruption, Drain Soul, Drain Life, and Wrack spells a 2% chance to cause you to enter a Shadow Trance after damaging the opponent. The Shadow Trance reduces the casting time of your next Shadow Bolt spell by 100%.",
+       "Gives your Corruption, Drain Soul, Drain Life, and Wrack spells a 4% chance to cause you to enter a Shadow Trance after damaging the opponent. The Shadow Trance reduces the casting time of your next Shadow Bolt spell by 100%."
       ],
       "requires": null,
       "ability": null
@@ -6367,7 +6359,7 @@
       "col": 2,
       "maxRank": 1,
       "ranks": [
-       "Reduces the target's movement speed by 30% for 12 sec.  Only one Curse per Warlock can be active on any one target."
+       "Reduces the target's movement speed by <!--sp18288:0-->30<!--sp18288-->% for 12 sec.  Only one Curse per Warlock can be active on any one target."
       ],
       "requires": {
        "id": 105916,
@@ -6375,7 +6367,7 @@
       },
       "ability": {
        "details": [
-        "69 Mana",
+        "8% of base mana",
         "30 yd range",
         "Instant"
        ],
@@ -6390,7 +6382,7 @@
       "col": 1,
       "maxRank": 1,
       "ranks": [
-       "Transfers 15 health from the target to the caster every 3 sec.  Lasts 30 sec."
+       "Transfers 11 health from the target to the caster every 3 sec.  Lasts 30 sec."
       ],
       "requires": null,
       "ability": {
@@ -6410,9 +6402,9 @@
       "col": 2,
       "maxRank": 3,
       "ranks": [
-       "Increases the rate at which your Drain Life and Drain Soul deal damage by 17%, but reduces your healing from Drain Life by 10%.",
-       "Increases the rate at which your Drain Life and Drain Soul deal damage by 33%, but reduces your healing from Drain Life by 15%.",
-       "Increases the rate at which your Drain Life and Drain Soul deal damage by 50%, but reduces your healing from Drain Life by 20%."
+       "Increases the damage done or health drained by your Drain Life, Drain Soul, and Wrack spells by 4% per each of your other Affliction effects active on the target, up to a maximum increase of 12%.",
+       "Increases the damage done or health drained by your Drain Life, Drain Soul, and Wrack spells by 8% per each of your other Affliction effects active on the target, up to a maximum increase of 24%.",
+       "Increases the damage done or health drained by your Drain Life, Drain Soul, and Wrack spells by 12% per each of your other Affliction effects active on the target, up to a maximum increase of 36%."
       ],
       "requires": null,
       "ability": null
@@ -6436,13 +6428,13 @@
      },
      {
       "id": 105909,
-      "name": "Drain Hope",
+      "name": "Wrack",
       "icon": "ability_deathknight_hemorrhagicfever",
       "row": 6,
       "col": 1,
       "maxRank": 1,
       "ranks": [
-       "Drains all hope from the target, dealing 52 Shadow damage every 1 sec and increasing all other Shadow damage over time you deal to that target by 10%. Lasts 6 sec."
+       "Tears the target apart from within, dealing (14.3% of Spell Power) Shadow damage every 1 sec and increasing the damage they take from your other Shadow damage over time effects by 10%. Lasts 6 sec."
       ],
       "requires": {
        "id": 105912,
@@ -6452,7 +6444,7 @@
        "details": [
         "200 Mana",
         "30 yd range",
-        "Channeled"
+        "Channeled (6 sec cast)"
        ],
        "requiresText": null
       }
@@ -6608,7 +6600,7 @@
       "col": 1,
       "maxRank": 1,
       "ranks": [
-       "When activated, sacrifices your summoned Demon to enhance the opposing aspect of your power, granting you an effect that lasts 2 hrs. The effect is canceled if any Demon is summoned.\n\nImp: Increases your Shadow damage by 15%.\n\nVoidwalker: Restores 2% of your total Mana every 4 sec.\n\nSuccubus/Incubus: Increases your Fire damage by 15%.\n\nFelhunter: Restores 3% of your total Health every 4 sec."
+       "When activated, sacrifices your summoned Demon to enhance the opposing aspect of your power, granting you an effect that lasts 2 hrs. The effect is canceled if any Demon is summoned.<br /><br />Imp: Increases your Shadow damage by 15%.<br /><br />Voidwalker: Restores 2% of your total Mana every 4 sec.<br /><br />Succubus/Incubus: Increases your Fire damage by 15%.<br /><br />Felhunter: Restores 3% of your total Health every 4 sec."
       ],
       "requires": null,
       "ability": {
@@ -6655,7 +6647,7 @@
       "col": 2,
       "maxRank": 1,
       "ranks": [
-       "Your next Imp, Voidwalker, Succubus, Incubus, or Felhunter Summon spell has its casting time reduced by 5.5 sec and its Mana cost reduced by 50%."
+       "Your next Imp, Voidwalker, Succubus, Incubus, or Felhunter Summon spell has its casting time reduced by 6 sec and its Mana cost reduced by 50%."
       ],
       "requires": {
        "id": 105898,
@@ -6677,9 +6669,9 @@
       "col": 3,
       "maxRank": 3,
       "ranks": [
-       "Your Searing Pain generates 17% less threat and brands the target for 10 sec. Your pet's next 2 attacks against the target generate high threat and deal 39 to 42 Fire or Shadow damage based on the pet.",
-       "Your Searing Pain generates 33% less threat and brands the target for 10 sec. Your pet's next 4 attacks against the target generate high threat and deal $<minDam> to $<maxDam> Fire or Shadow damage based on the pet.",
-       "Your Searing Pain generates 50% less threat and brands the target for 10 sec. Your pet's next 6 attacks against the target generate high threat and deal $<minDam> to $<maxDam> Fire or Shadow damage based on the pet."
+       "Your Searing Pain generates 17% less threat and brands the target for 10 sec. Your pet's next 2 attacks against the target generate high threat and deal ((((<!--pl1293695:1:60-->60 - 26) * 1.5) + 14 + (0.078 * ((Shadow spell power)))) * (<!--sp23759:0-->1<!--sp23759--> * <!--sp18769:0-->1<!--sp18769--> * <!--sp23761:0-->1<!--sp23761-->)) to ((((<!--pl1293695:1:60-->60 - 26) * 1.5) + 17 + (0.078 * ((Shadow spell power)))) * (<!--sp23759:0-->1<!--sp23759--> * <!--sp18769:0-->1<!--sp18769--> * <!--sp23761:0-->1<!--sp23761-->)) Fire or Shadow damage based on the pet.",
+       "Your Searing Pain generates 33% less threat and brands the target for 10 sec. Your pet's next 4 attacks against the target generate high threat and deal ((((<!--pl1293695:1:60-->60 - 26) * 1.5) + 14 + (0.078 * ((Shadow spell power)))) * (<!--sp23759:0-->1<!--sp23759--> * <!--sp18769:0-->1<!--sp18769--> * <!--sp23761:0-->1<!--sp23761-->)) to ((((<!--pl1293695:1:60-->60 - 26) * 1.5) + 17 + (0.078 * ((Shadow spell power)))) * (<!--sp23759:0-->1<!--sp23759--> * <!--sp18769:0-->1<!--sp18769--> * <!--sp23761:0-->1<!--sp23761-->)) Fire or Shadow damage based on the pet.",
+       "Your Searing Pain generates 50% less threat and brands the target for 10 sec. Your pet's next 6 attacks against the target generate high threat and deal ((((<!--pl1293695:1:60-->60 - 26) * 1.5) + 14 + (0.078 * ((Shadow spell power)))) * (<!--sp23759:0-->1<!--sp23759--> * <!--sp18769:0-->1<!--sp18769--> * <!--sp23761:0-->1<!--sp23761-->)) to ((((<!--pl1293695:1:60-->60 - 26) * 1.5) + 17 + (0.078 * ((Shadow spell power)))) * (<!--sp23759:0-->1<!--sp23759--> * <!--sp18769:0-->1<!--sp18769--> * <!--sp23761:0-->1<!--sp23761-->)) Fire or Shadow damage based on the pet."
       ],
       "requires": null,
       "ability": null
@@ -6715,7 +6707,7 @@
       },
       "ability": {
        "details": [
-        "173 Mana",
+        "20% of base mana",
         "100 yd range",
         "Instant"
        ],
@@ -6730,9 +6722,9 @@
       "col": 2,
       "maxRank": 3,
       "ranks": [
-       "Increases your spell damage and healing by up to 33% of your level while you have a summoned Demon pet active.",
-       "Increases your spell damage and healing by up to 67% of your level while you have a summoned Demon pet active.",
-       "Increases your spell damage and healing by up to 100% of your level while you have a summoned Demon pet active."
+       "Increases your spell damage and your Demon pet's spell damage by up to 33% of your level while you have a summoned Demon pet active.",
+       "Increases your spell damage and your Demon pet's spell damage by up to 67% of your level while you have a summoned Demon pet active.",
+       "Increases your spell damage and your Demon pet's spell damage by up to 100% of your level while you have a summoned Demon pet active."
       ],
       "requires": null,
       "ability": null
@@ -6745,11 +6737,11 @@
       "col": 2,
       "maxRank": 5,
       "ranks": [
-       "Grants both the Warlock and the summoned demon an effect as long as that demon is active.\n\nImp - Increases Fire damage done by 2%.\n\nVoidwalker - Reduces Physical damage taken by 2%.\n\nSuccubus/Incubus - Increases Shadow damage done by 2%.\n\nFelhunter - Reduces Magic damage taken by 2%.",
-       "Grants both the Warlock and the summoned demon an effect as long as that demon is active.\n\nImp - Increases Fire damage done by 4%.\n\nVoidwalker - Reduces Physical damage taken by 4%.\n\nSuccubus/Incubus - Increases Shadow damage done by 4%.\n\nFelhunter - Reduces Magic damage taken by 4%.",
-       "Grants both the Warlock and the summoned demon an effect as long as that demon is active.\n\nImp - Increases Fire damage done by 6%.\n\nVoidwalker - Reduces Physical damage taken by 6%.\n\nSuccubus/Incubus - Increases Shadow damage done by 6%.\n\nFelhunter - Reduces Magic damage taken by 6%.",
-       "Grants both the Warlock and the summoned demon an effect as long as that demon is active.\n\nImp - Increases Fire damage done by 8%.\n\nVoidwalker - Reduces Physical damage taken by 8%.\n\nSuccubus/Incubus - Increases Shadow damage done by 8%.\n\nFelhunter - Reduces Magic damage taken by 8%.",
-       "Grants both the Warlock and the summoned demon an effect as long as that demon is active.\n\nImp - Increases Fire damage done by 10%.\n\nVoidwalker - Reduces Physical damage taken by 10%.\n\nSuccubus/Incubus - Increases Shadow damage done by 10%.\n\nFelhunter - Reduces Magic damage taken by 10%."
+       "Grants both the Warlock and the summoned demon an effect as long as that demon is active.<br /><br />Imp - Increases Fire damage done by 2%.<br /><br />Voidwalker - Reduces Physical damage taken by 2%.<br /><br />Succubus/Incubus - Increases Shadow damage done by 2%.<br /><br />Felhunter - Reduces Magic damage taken by 2%.",
+       "Grants both the Warlock and the summoned demon an effect as long as that demon is active.<br /><br />Imp - Increases Fire damage done by 4%.<br /><br />Voidwalker - Reduces Physical damage taken by 4%.<br /><br />Succubus/Incubus - Increases Shadow damage done by 4%.<br /><br />Felhunter - Reduces Magic damage taken by 4%.",
+       "Grants both the Warlock and the summoned demon an effect as long as that demon is active.<br /><br />Imp - Increases Fire damage done by 6%.<br /><br />Voidwalker - Reduces Physical damage taken by 6%.<br /><br />Succubus/Incubus - Increases Shadow damage done by 6%.<br /><br />Felhunter - Reduces Magic damage taken by 6%.",
+       "Grants both the Warlock and the summoned demon an effect as long as that demon is active.<br /><br />Imp - Increases Fire damage done by 8%.<br /><br />Voidwalker - Reduces Physical damage taken by 8%.<br /><br />Succubus/Incubus - Increases Shadow damage done by 8%.<br /><br />Felhunter - Reduces Magic damage taken by 8%.",
+       "Grants both the Warlock and the summoned demon an effect as long as that demon is active.<br /><br />Imp - Increases Fire damage done by 10%.<br /><br />Voidwalker - Reduces Physical damage taken by 10%.<br /><br />Succubus/Incubus - Increases Shadow damage done by 10%.<br /><br />Felhunter - Reduces Magic damage taken by 10%."
       ],
       "requires": null,
       "ability": null
@@ -6899,7 +6891,7 @@
       "col": 2,
       "maxRank": 1,
       "ranks": [
-       "Instantly blasts the target for 102 to 111 Shadow damage. If a non-trivial target dies within 8 sec of being hit with Shadowburn, the caster gains a Soul Shard."
+       "Instantly blasts the target for (42.9% of Spell Power) Shadow damage.  If a non-trivial target dies within 8 sec of being hit with Shadowburn, the caster gains a Soul Shard."
       ],
       "requires": null,
       "ability": {
@@ -6907,8 +6899,7 @@
         "105 Mana",
         "30 yd range",
         "Instant",
-        "15 sec cooldown",
-        "Reagents: Soul Shard"
+        "15 sec cooldown"
        ],
        "requiresText": null
       }
@@ -6951,7 +6942,7 @@
       "col": 2,
       "maxRank": 1,
       "ranks": [
-       "Ignites a target that is already afflicted by your Immolate spell, dealing 109 to 132 Fire damage and consuming your Immolate effect."
+       "Ignites a target that is already afflicted by your Immolate spell, dealing (42.9% of Spell Power) Fire damage and consuming your Immolate effect."
       ],
       "requires": null,
       "ability": {
@@ -6994,7 +6985,7 @@
       "requires": null,
       "ability": {
        "details": [
-        "43 Mana",
+        "5% of base mana",
         "30 yd range",
         "Instant"
        ],
@@ -7044,7 +7035,7 @@
       "col": 1,
       "maxRank": 1,
       "ranks": [
-       "Deals 125 to 140 Fire damage to your target and an additional 25% damage if the target is afflicted by Immolate."
+       "Deals (71.4% of Spell Power) Fire damage to your target and an additional 25% damage if the target is afflicted by Immolate."
       ],
       "requires": {
        "id": 105876,
@@ -7289,11 +7280,11 @@
       "col": 2,
       "maxRank": 5,
       "ranks": [
-       "Gives your melee weapon attacks a benefit depending on the weapon.\n\n    Axe/Polearm: Increases your\n    critical strike chance by 1%.\n\n    Mace/Staff: Your attacks ignore\n    3% of your target's armor.\n\n    Sword: Your successful melee \n    attacks have a 1% chance to \n    trigger an extra attack on the \n    target.",
-       "Gives your melee weapon attacks a benefit depending on the weapon.\n\n    Axe/Polearm: Increases your\n    critical strike chance by 2%.\n\n    Mace/Staff: Your attacks ignore\n    6% of your target's armor.\n\n    Sword: Your successful melee \n    attacks have a 2% chance to \n    trigger an extra attack on the \n    target.",
-       "Gives your melee weapon attacks a benefit depending on the weapon.\n\n    Axe/Polearm: Increases your\n    critical strike chance by 3%.\n\n    Mace/Staff: Your attacks ignore\n    9% of your target's armor.\n\n    Sword: Your successful melee \n    attacks have a 3% chance to \n    trigger an extra attack on the \n    target.",
-       "Gives your melee weapon attacks a benefit depending on the weapon.\n\n    Axe/Polearm: Increases your\n    critical strike chance by 4%.\n\n    Mace/Staff: Your attacks ignore\n    12% of your target's armor.\n\n    Sword: Your successful melee \n    attacks have a 4% chance to \n    trigger an extra attack on the \n    target.",
-       "Gives your melee weapon attacks a benefit depending on the weapon.\n\n    Axe/Polearm: Increases your\n    critical strike chance by 5%.\n\n    Mace/Staff: Your attacks ignore\n    15% of your target's armor.\n\n    Sword: Your successful melee \n    attacks have a 5% chance to \n    trigger an extra attack on the \n    target."
+       "Gives your melee weapon attacks a benefit depending on the weapon.<br /><br />    <span style=\"color: #FFFFFF\">Axe/Polearm:</span> Increases your<br />    critical strike chance by 1%.<br /><br />    <span style=\"color: #FFFFFF\">Mace/Staff:</span> Your attacks ignore<br />    3% of your target's armor.<br /><br />    <span style=\"color: #FFFFFF\">Sword:</span> Your successful melee <br />    attacks have a 1% chance to <br />    trigger an extra attack on the <br />    target.",
+       "Gives your melee weapon attacks a benefit depending on the weapon.<br /><br />    <span style=\"color: #FFFFFF\">Axe/Polearm:</span> Increases your<br />    critical strike chance by 2%.<br /><br />    <span style=\"color: #FFFFFF\">Mace/Staff:</span> Your attacks ignore<br />    6% of your target's armor.<br /><br />    <span style=\"color: #FFFFFF\">Sword:</span> Your successful melee <br />    attacks have a 2% chance to <br />    trigger an extra attack on the <br />    target.",
+       "Gives your melee weapon attacks a benefit depending on the weapon.<br /><br />    <span style=\"color: #FFFFFF\">Axe/Polearm:</span> Increases your<br />    critical strike chance by 3%.<br /><br />    <span style=\"color: #FFFFFF\">Mace/Staff:</span> Your attacks ignore<br />    9% of your target's armor.<br /><br />    <span style=\"color: #FFFFFF\">Sword:</span> Your successful melee <br />    attacks have a 3% chance to <br />    trigger an extra attack on the <br />    target.",
+       "Gives your melee weapon attacks a benefit depending on the weapon.<br /><br />    <span style=\"color: #FFFFFF\">Axe/Polearm:</span> Increases your<br />    critical strike chance by 4%.<br /><br />    <span style=\"color: #FFFFFF\">Mace/Staff:</span> Your attacks ignore<br />    12% of your target's armor.<br /><br />    <span style=\"color: #FFFFFF\">Sword:</span> Your successful melee <br />    attacks have a 4% chance to <br />    trigger an extra attack on the <br />    target.",
+       "Gives your melee weapon attacks a benefit depending on the weapon.<br /><br />    <span style=\"color: #FFFFFF\">Axe/Polearm:</span> Increases your<br />    critical strike chance by 5%.<br /><br />    <span style=\"color: #FFFFFF\">Mace/Staff:</span> Your attacks ignore<br />    15% of your target's armor.<br /><br />    <span style=\"color: #FFFFFF\">Sword:</span> Your successful melee <br />    attacks have a 5% chance to <br />    trigger an extra attack on the <br />    target."
       ],
       "requires": null,
       "ability": null
@@ -7307,7 +7298,7 @@
       "maxRank": 2,
       "ranks": [
        "Reduces the global cooldown and cast time of your Slam ability by 0.25 sec. In addition, Slam no longer interrupts your melee swing time.",
-       "Reduces the global cooldown and cast time of your Slam ability by 0.5 sec. In addition, Slam no longer interrupts your melee swing time."
+       "Reduces the global cooldown and cast time of your Slam ability by 0.50 sec. In addition, Slam no longer interrupts your melee swing time."
       ],
       "requires": null,
       "ability": null
@@ -7348,7 +7339,7 @@
         "Instant",
         "6 sec cooldown"
        ],
-       "requiresText": null
+       "requiresText": "Requires Melee Weapon"
       }
      }
     ]
@@ -7383,11 +7374,11 @@
       "col": 2,
       "maxRank": 5,
       "ranks": [
-       "Increases your chance to get a critical strike with melee attacks by 1%.",
-       "Increases your chance to get a critical strike with melee attacks by 2%.",
-       "Increases your chance to get a critical strike with melee attacks by 3%.",
-       "Increases your chance to get a critical strike with melee attacks by 4%.",
-       "Increases your chance to get a critical strike with melee attacks by 5%."
+       "Improves your chance to get a critical strike with melee attacks by 1%.",
+       "Improves your chance to get a critical strike with melee attacks by 2%.",
+       "Improves your chance to get a critical strike with melee attacks by 3%.",
+       "Improves your chance to get a critical strike with melee attacks by 4%.",
+       "Improves your chance to get a critical strike with melee attacks by 5%."
       ],
       "requires": null,
       "ability": null
@@ -7559,9 +7550,9 @@
       "col": 0,
       "maxRank": 3,
       "ranks": [
-       "Increases your chance to hit with all abilities and attacks by 1%.",
-       "Increases your chance to hit with all abilities and attacks by 2%.",
-       "Increases your chance to hit with all abilities and attacks by 3%."
+       "Improves your chance to hit by 1%.",
+       "Improves your chance to hit by 2%.",
+       "Improves your chance to hit by 3%."
       ],
       "requires": null,
       "ability": null
@@ -7642,7 +7633,7 @@
       "col": 1,
       "maxRank": 1,
       "ranks": [
-       "Instantly attack the target causing damage equal to 35% of your Attack Power plus 30 and increasing your movement speed by 10% for 10 sec."
+       "Instantly attack the target causing damage equal to 35% of your Attack Power plus (100% of Spell Power) and increasing your movement speed by 10% for 10 sec."
       ],
       "requires": {
        "id": 105927,
@@ -7866,7 +7857,7 @@
       "maxRank": 2,
       "ranks": [
        "Reduces the cooldown of your Shield Wall ability by 5.5 min.",
-       "Reduces the cooldown of your Shield Wall ability by 11 min."
+       "Reduces the cooldown of your Shield Wall ability by 11.0 min."
       ],
       "requires": null,
       "ability": null
@@ -7884,12 +7875,12 @@
       "requires": null,
       "ability": {
        "details": [
-        "10 Rage",
+        "15 Rage",
         "Melee Range",
         "Instant",
         "45 sec cooldown"
        ],
-       "requiresText": null
+       "requiresText": "Requires Melee Weapon"
       }
      },
      {
@@ -7908,42 +7899,10 @@
      },
      {
       "id": 105962,
-      "name": "Vitality",
-      "icon": "inv_helmet_21",
-      "row": 4,
-      "col": 3,
-      "maxRank": 5,
-      "ranks": [
-       "Increases your Stamina and Strength by 2%.",
-       "Increases your Stamina and Strength by 4%.",
-       "Increases your Stamina and Strength by 6%.",
-       "Increases your Stamina and Strength by 8%.",
-       "Increases your Stamina and Strength by 10%."
-      ],
-      "requires": null,
-      "ability": null
-     },
-     {
-      "id": 105961,
-      "name": "Focused Rage",
-      "icon": "ability_warrior_focusedrage",
-      "row": 5,
-      "col": 0,
-      "maxRank": 3,
-      "ranks": [
-       "Reduces the Rage cost of your offensive abilities by 1.",
-       "Reduces the Rage cost of your offensive abilities by 2.",
-       "Reduces the Rage cost of your offensive abilities by 3."
-      ],
-      "requires": null,
-      "ability": null
-     },
-     {
-      "id": 105960,
       "name": "Bastion",
       "icon": "inv_shield_04",
-      "row": 5,
-      "col": 2,
+      "row": 4,
+      "col": 3,
       "maxRank": 5,
       "ranks": [
        "Increases all damage you deal by 2% while a shield is equipped.",
@@ -7956,6 +7915,21 @@
       "ability": null
      },
      {
+      "id": 105961,
+      "name": "Focused Rage",
+      "icon": "ability_warrior_focusedrage",
+      "row": 5,
+      "col": 2,
+      "maxRank": 3,
+      "ranks": [
+       "Reduces the Rage cost of your offensive abilities by 1.",
+       "Reduces the Rage cost of your offensive abilities by 2.",
+       "Reduces the Rage cost of your offensive abilities by 3."
+      ],
+      "requires": null,
+      "ability": null
+     },
+     {
       "id": 105959,
       "name": "Shield Slam",
       "icon": "inv_shield_05",
@@ -7963,7 +7937,7 @@
       "col": 1,
       "maxRank": 1,
       "ranks": [
-       "Slam the target with your shield, causing 421 to 439 damage, increased by your Block Value, and has a 50% chance of dispelling 1 magic effect on the target. Causes a very high amount of threat."
+       "Slam the target with your shield, causing (100% of Spell Power) damage, increased by your Block Value, and has a 50% chance of dispelling 1 magic effect on the target. Causes a very high amount of threat."
       ],
       "requires": {
        "id": 105965,
@@ -7976,7 +7950,7 @@
         "Instant",
         "6 sec cooldown"
        ],
-       "requiresText": "Requires Shields"
+       "requiresText": null
       }
      }
     ]
