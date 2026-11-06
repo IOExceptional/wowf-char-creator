@@ -38,8 +38,8 @@ Wowhead is the source of truth; Icy Veins is a second opinion. Both build their 
 
 Known differences as of the last sync, all of them Icy Veins being wrong or behind:
 
-- **Improved Serpent Sting** (Marksmanship, row 3) is on Wowhead as [spell 19464](https://www.wowhead.com/forever/spell=19464) but missing from Icy Veins' tree.
-- **Nature's Majesty** (Balance): Icy Veins draws its prerequisite arrow the wrong way round, pointing at Nature's Splendor a row *below* it.
+- **Lightning Mastery** (Elemental, row 6) is [spell 16166](https://www.wowhead.com/forever/spell=16166) on both sites, but Icy Veins (last updated 16 Oct) still calls it Elemental Mastery and has Lava Burst at row 4, where Wowhead's newer datamine has Call of Thunder. Lava Burst is gone from the current build.
+- **Improved Ghost Wolf / Improved Lightning Shield** (Enhancement): Wowhead's current build swaps them (Lightning Shield to row 1, Ghost Wolf to row 3); Icy Veins still has the old positions.
 - **Devouring Contagion** (Shadow): Icy Veins' icon name has a stray trailing hyphen.
 
 A talent counts as an *ability* when its tooltip lists a resource cost or a cast time; a range or a cooldown on its own isn't enough, since Wowhead shows those on some purely passive talents too. Wowhead no longer resolves percentage costs to a number at level 60, so a few abilities read e.g. "20% of base mana" rather than "162 Mana". The racials guide doesn't label passives, so those flags and some racial icons (where the guide had none) are best guesses in `races.ts`. Icons are loaded from Wowhead's CDN (`wow.zamimg.com`).
